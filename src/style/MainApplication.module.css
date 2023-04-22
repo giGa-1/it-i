@@ -1,0 +1,742 @@
+.application {
+    position: relative;
+    min-height: 700px;
+    background-color: var(--pink-color);
+    overflow: hidden;
+}
+
+
+.applicationLeftBg {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 434px;
+    min-height: 598px;
+    background-image: url('../../public/img/left-bg-pink.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.applicationRightBg {
+    display: inline-block;
+    position: absolute;
+    top: 103px;
+    right: 0;
+    width: 349px;
+    min-height: 475px;
+    background-image: url('../../public/img/right-bg-pink.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.applicationContent {
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    gap: 34px;
+    padding-top: 80px;
+    height: 100%;
+}
+
+.applicationRightBlock {
+    z-index: 10;
+}
+
+
+.applicationRightTitle {
+    margin-bottom: 35px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.applicationRightDescr {
+    max-width: 449px;
+    margin-bottom: 48px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #ffffff8f;
+}
+
+.applicationBtnM {
+    display: none;
+}
+
+.applicationInputBlock {
+    margin-bottom: 34px;
+    max-width: 361px;
+    position: relative;
+}
+
+.applicationInput {
+    margin-bottom: 10px;
+    width: 100%;
+   
+    background: #FFFFFF;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    border:1px solid #fff !important;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+.applicationMask {
+    background-color: #fff;
+    border:1px solid #fff !important;
+}
+.applicationBottomDescr {
+    margin-bottom: 32px;
+    max-width: 387px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF7f;
+}
+
+.applicationBtn {
+    margin-bottom: 108px;
+    color: #fff;
+    border: 1px solid #FFFFFF6f;
+    padding: 28px 142px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .4s ease;
+}
+
+.applicationBtn:hover {
+    background-color: #ffffff8f;
+    color: var(--pink-color);
+}
+
+
+.applicationLeftBlock {
+    height: 620px;
+    width: 540px;
+    z-index: 10;
+    align-self: end;
+}
+
+.applicationFemaleBg {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform: translateY(2px);
+    background-image: url('../../public/img/female-bg.WebP');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media (max-width: 1200px) {
+
+    .applicationLeftBg {
+        display: inline-block;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 384px;
+        min-height: 548px;
+        background-image: url('../../public/img/left-bg-pink.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .applicationRightBg {
+        display: inline-block;
+        position: absolute;
+        top: 103px;
+        right: 0;
+        width: 299px;
+        min-height: 425px;
+        background-image: url('../../public/img/right-bg-pink.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .applicationFemaleBg {
+        position: absolute;
+        bottom: -5%;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../public/img/female-bg.WebP');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .applicationLeftBlock {
+        position: relative;
+        height: 100%;
+        z-index: 10;
+    }
+    .application {
+        height: 600px;
+        position: relative;
+        background-color: var(--pink-color);
+        overflow: hidden;
+    }
+
+    .applicationRightTitle {
+        margin-bottom: 30px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    
+    .applicationRightDescr {
+        max-width: 449px;
+        margin-bottom: 40px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #ffffff8f;
+    }
+    
+    .applicationInputBlock {
+        margin-bottom: 30px;
+        max-width: 361px;
+        position: relative;
+    }
+    
+    .applicationInput {
+        margin-bottom: 10px;
+        width: 100%;
+      
+        background: #FFFFFF;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #607483;
+    }
+    
+    .applicationPlaceholder {
+        position: absolute;
+       
+        top: 12px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #83919B;
+    }
+    
+    .applicationMask {
+        width: 100%;
+      
+        background: #FFFFFF;
+    }
+    
+    .applicationBottomDescr {
+        margin-bottom: 32px;
+        max-width: 387px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF7f;
+    }
+    
+    .applicationBtn {
+        margin-bottom: 28px;
+        color: #fff;
+        border: 1px solid #FFFFFF6f;
+        padding: 28px 142px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 11px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all .4s ease;
+    }
+    
+    .applicationContent {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        gap: 34px;
+        padding-top: 80px;
+        height: 100%;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .applicationLeftBg {
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 294px;
+        min-height: 408px;
+        background-image: url('../../public/img/left-bg-pink.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+    .applicationPlace {
+      
+        top: 20px;
+    }
+
+    
+    .applicationRightBg {
+        display: inline-block;
+        position: absolute;
+        top: 103px;
+        right: 0;
+        width: 249px;
+        min-height: 375px;
+        background-image: url('../../public/img/right-bg-pink.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .applicationFemaleBg {
+        position: absolute;
+        bottom: -15%;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../public/img/female-bg.WebP');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .applicationLeftBlock {
+        position: relative;
+        height: 100%;
+        z-index: 10;
+    }
+    .application {
+        height: 540px;
+        position: relative;
+        background-color: var(--pink-color);
+        overflow: hidden;
+    }
+
+    .applicationContent {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        gap: 34px;
+        padding-top: 65px;
+        height: 100%;
+    }
+
+    .applicationRightTitle {
+        margin-bottom: 26px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    
+    .applicationRightDescr {
+        max-width: 350px;
+        margin-bottom: 25px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #ffffff8f;
+    }
+    
+    .applicationInputBlock {
+        margin-bottom: 30px;
+        max-width: 300.43px;
+        position: relative;
+    }
+    
+  
+    .applicationMask:focus, .applicationMask:valid:required  {
+        padding: 32px 18px 16px !important;
+    }
+
+    .applicationPlaceM {
+        top: 9px;
+    }
+    
+    .applicationInput, .applicationMask {
+      height: 60px;
+    }
+
+    .applicationMask::placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+    
+    .applicationBottomDescr {
+        margin-bottom: 25px;
+        max-width: 300px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF7f;
+    }
+    
+    .applicationBtn {
+        margin-bottom: 28px;
+        color: #fff;
+        border: 1px solid #FFFFFF6f;
+        padding: 22px 108px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 11px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all .4s ease;
+    }
+}
+
+@media (max-width:768px) {
+
+    .application {
+        min-height: 540px;
+        height: auto;
+        position: relative;
+        background-color: var(--pink-color);
+        overflow: hidden;
+    }
+
+    .applicationRightContent {
+        text-align: center;
+    }
+
+    .applicationRightTitle {
+        font-size: 26px;
+    }
+    .applicationRightDescr {
+        display: inline-block;
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .applicationInputBlock {
+        max-width: 400px;
+        margin: 0 auto 25px;
+    }
+
+    .applicationInput, .applicationMask {
+        height: 60px;
+    }
+
+    .applicationBottomDescr {
+        display: inline-block;
+        width: 100%;
+        max-width: 400px;
+    }
+    .applicationFemaleBg {
+        position: absolute;
+        bottom: 0;right: 0;left: 0;top: 0;
+        margin: auto;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../public/img/female-bg.WebP');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .applicationLeftBg {
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 344px;
+        min-height: 458px;
+        background-image: url('../../public/img/left-bg-pink.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .applicationRightBg {
+        display: inline-block;
+        position: absolute;
+        bottom: -150px;
+        right: 0;
+        width: 299px;
+        min-height: 425px;
+        background-image: url('../../public/img/right-bg-pink.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .applicationMask:focus, .applicationMask:valid:required  {
+        padding: 31px 18px 17px !important;
+    }
+
+    .applicationLeftBlock {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .applicationContent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 34px;
+        padding-top: 65px;
+        height: 100%;
+    }
+    .applicationBtn {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .application {
+        height: 665px !important;
+    }
+    .applicationContent {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: 264px 349px;
+        gap: 24px;
+        padding-top: 33px;
+        height: 100%;
+    }
+    .applicationRightBg {
+        display: none;
+    }
+
+    .applicationFemaleBg {
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        width: 264px;
+        height: 257px;
+        background-image: url('../../public/img/female-bg.WebP');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .applicationRightBlock {
+        order: -1;
+        text-align: center;
+    }
+
+    .applicationRightContent {
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    .applicationLeftBlock {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+        height: 100%;
+        z-index: 10;
+    }
+    .application {
+        height: 540px;
+        position: relative;
+        background-color: var(--pink-color);
+        overflow: hidden;
+    }
+
+    .applicationRightTitle {
+        margin-bottom: 25px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    
+    .applicationRightDescr {
+        display: block;
+        text-align: center;
+        max-width: 449px;
+        margin-bottom: 25px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #ffffff8f;
+    }
+    
+    .applicationInputBlock {
+        display: block;
+        margin: 0;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: 500.43px;
+        position: relative;
+    }
+    
+    .applicationInput {
+        margin-bottom: 7px;
+        width: 100%;
+        padding: 20px 17px 6px;
+        height: 54px;
+        background: #FFFFFF;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #607483;
+    }
+
+    
+    .applicationMask {
+        width: 100%;
+        padding: 20px 16px 20px;
+        height: 55px;
+        font-size: 12px;
+        line-height: 130%;
+        background: #FFFFFF;
+    }
+
+    .applicationPlace {
+        left: 19px;
+    }
+
+
+    .applicationMask::placeholder {
+        font-size: 12px;
+        line-height: 130%;
+        color: #607483;
+    }
+    
+    .applicationBottomDescr {
+        display: block;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        max-width: 300px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF7f;
+    }
+    
+    .applicationBtn {
+        display: none;
+    }
+
+    .applicationBtnM {
+        display: block;
+        margin: 0 0 28px;
+        color: #fff;
+        border: 1px solid #FFFFFF6f;
+        padding: 21px 0 20px;
+        font-family: 'GothamProMedium';
+        max-width: 500px;
+        width: 100%;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all .4s ease;
+    }
+
+    .applicationBtnM:hover {
+        background-color: #ffffff6f;
+        max-width: 500px;
+
+        color: var(--pink-color);
+    }
+    .applicationLeftBg {
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        min-height: auto;
+        height: 120%;
+        background-image: url('../../public/img/mini-app-bg.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .applicationInput, .applicationMask {
+        height: 54px;
+      } 
+
+      
+      .applicationInput:valid:required ~  .applicationPlace,
+      .applicationInput:focus ~ .applicationPlace {
+          -webkit-transform: translateY(-9.5px);
+              -ms-transform: translateY(-9.5px);
+                  transform: translateY(-9.5px);
+          font-family: 'GothamProRegular';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 9px ;
+          line-height: 130%;
+          /* o8.5r 13px */
+  
+          letter-spacing: -0.02em;
+  
+         
+      }
+
+}

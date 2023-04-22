@@ -1,0 +1,1396 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.achorMain {
+    text-decoration: none;
+}
+.footer {
+    overflow:hidden;
+    background: #030303;
+    padding-top: 87px;
+}
+
+.footerIComponent a {
+    text-decoration: none;
+}
+.footerContent {
+    max-width: 1128px;
+}
+
+.footerUnderContent {
+    padding:  40px 0 44px;
+    border-top: 1px solid #302E2E5f;
+    background: #030303;
+}
+
+.footerUnderBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.footerUnderLeft, .footerUnderRight {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #969494;
+}
+
+.footerUnderLeft {
+    margin-left: 10px;
+}
+
+.achorMain {
+    margin-bottom: 72px;
+}
+
+.company {
+    margin-bottom: 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.footerMainList {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footerIList {
+    max-width: 260px;
+}
+.footerIClink{
+    max-width: 260px;
+}
+
+.name {
+    margin-left: 10px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: -0.04em;
+    margin-bottom: 3px;
+    color: #fff;
+}
+.whoWe {
+    margin-left: 10px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #5E6062;
+}
+
+.footerumber {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.mail {
+    margin-left: 10px;
+    margin-bottom: 43px;
+    display: block;
+    text-decoration: none;
+}
+
+
+.footerBtn {
+    margin-bottom: 47px;
+    padding: 17px 24px;
+}
+
+.footerSocialBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.textUs_span {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 12px;
+    color: #969494;
+}
+
+.iconBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+.icon {
+   
+    -webkit-transition: all .35s ease-in-out;
+   
+    -o-transition: all .35s ease-in-out;
+   
+    transition: all .35s ease-in-out;
+  
+}
+
+.whatsapp {
+    height: 17px;
+}
+.whatsapp svg{
+ 
+    width: 17px;
+    height: 17px;
+}
+
+.tg {
+    margin-left: 10px;
+    height: 16px;
+    height: auto;
+}
+
+.tg svg{
+  
+    width: 19px;
+    height: 16px;
+}
+
+.whatsapp svg, .tg svg {
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    -webkit-transform: translateY(2px);
+        -ms-transform: translateY(2px);
+            transform: translateY(2px);
+}
+
+
+.whatsapp:hover svg, .tg:hover svg {
+    fill: #fff;
+}
+
+  
+
+
+.footerICtitle {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #FAFAFA;
+    -webkit-transition: all .35s  ease-in-out;
+    -o-transition: all .35s  ease-in-out;
+    transition: all .35s  ease-in-out;
+    cursor: default;
+}
+
+.footerICtitle:hover {
+    color: #F84263;
+}
+
+.footerCItitleD {
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.footerCItitleB {
+    margin-bottom: 34px;
+}
+
+.footerIClist {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+
+
+.footerIClink {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #969494;
+    -webkit-transition: all .35s  ease-in-out;
+    -o-transition: all .35s  ease-in-out;
+    transition: all .35s  ease-in-out;
+    cursor: pointer;
+    white-space: pre-wrap;
+    text-decoration: none;
+}
+
+.footerIClink:hover {
+    color: #F84263;
+}
+
+.footerCIItemB {
+    margin-bottom: 6px;
+}
+
+.footerCIItemUM {
+    margin-bottom: 4px;
+}
+
+.footerCIItemM {
+    margin-bottom: 3px;
+}
+
+
+.modalTitle {
+    font-family: 'GothamProMedium';
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--deep-blue);
+}
+
+.modalDescr {
+    display: inline-block;
+    padding:  0 10px;
+    max-width: 406px;
+    margin-bottom: 32px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #607483;
+    opacity: 0.8;
+}
+
+.modalWarning {
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 406px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+    opacity: 0.7;
+}
+
+.modalBtn {
+    padding: 28px 163px;
+}
+
+.modalInput {
+    margin-bottom: 10.24px;
+    width: 100%;
+    padding: 26px 35px;
+}
+
+.modalMask {
+    margin-bottom: 32px;
+    width: 100%;
+    padding: 24px 36px;
+}
+
+
+@media (max-width:992px) {
+    .whatsapp::after {
+        width: 16px;
+        height: 16px;
+    }
+    .footer {
+        overflow:hidden;
+        background: #030303;
+        padding: 67px 0 0;
+    }
+    
+    .footerContent {
+        width: 100%;
+    }
+    
+    .footerUnderContent {
+        padding:  30px 34px;
+        border-top: 1px solid #302E2E5f;
+        background: #030303;
+    }
+    
+    .footerUnderBlock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    
+    .footerUnderLeft, .footerUnderRight {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #969494;
+    }
+    
+    .footerUnderLeft {
+        margin-left: 10px;
+    }
+    .achorMain {
+        margin-bottom: 42px;
+    }
+    .company {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 42px;
+    }
+    
+    .footerMainList {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .logo {
+        width: 32px;    
+        height: 32px;
+    }
+    
+    
+    .name {
+        margin-left: 5px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        margin-bottom: 1px;
+        color: #fff;
+    }
+    .whoWe {
+        margin-left: 5px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1;
+        /* identical to box height, or 120% */
+    
+        letter-spacing: -0.02em;
+        text-transform: lowercase;
+        color: #5E6062;
+    }
+    
+    .footerumber {
+        display: block;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        text-decoration: none;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    
+    .mail {
+        margin-left: 10px;
+        margin-bottom: 35px;
+        display: block;
+        text-decoration: none;
+    }
+    
+    
+    .footerBtn {
+        margin-bottom: 37px;
+        padding: 14px 12px;
+    }
+    
+    .footerSocialBlock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .textUs_span {
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-right: 0px;
+        color: #969494;
+        font-size: 12px;
+    }
+    .icon {
+        display: inline-block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 4px;
+        margin-left: 8px;
+        -webkit-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out;
+    }
+    .whatsapp svg {
+      
+        width: 16px;
+        height: 16px;
+    }
+
+    
+    .tg svg {
+        margin-right: 5px;
+       
+        width: 19px;
+        height: 16px;
+    }
+
+    
+    
+    
+    .footerICtitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #FAFAFA;
+        -webkit-transition: all .35s  ease-in-out;
+        -o-transition: all .35s  ease-in-out;
+        transition: all .35s  ease-in-out;
+       
+    }
+    
+    .footerICtitle:hover {
+        color: #F84263;
+    }
+    
+    .footerCItitleD {
+        margin-bottom: 18px;
+    
+    }
+    
+    .footerCItitleB {
+        margin-bottom: 27px;
+    }
+    
+    .footerIClist {
+        display: -ms-grid;
+        display: grid;
+        gap: 10px;
+        padding-bottom: 40px;
+    }
+    
+    .footerIClink {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #969494;
+        -webkit-transition: all .35s  ease-in-out;
+        -o-transition: all .35s  ease-in-out;
+        transition: all .35s  ease-in-out;
+        cursor: pointer;
+    }
+    
+    .footerIClink:hover {
+        color: #F84263;
+    }
+    
+    .footerCIItemB {
+        margin-bottom: 6px;
+    }
+    
+    .footerCIItemUM {
+        margin-bottom: 4px;
+    }
+    
+    .footerCIItemM {
+        margin-bottom: 3px;
+    }
+    
+    
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .modalDescr {
+        display: inline-block;
+        padding:  0 10px;
+        max-width: 406px;
+        margin-bottom: 32px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+    
+    .modalWarning {
+        display: inline-block;
+        margin-bottom: 20px;
+        max-width: 406px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+        opacity: 0.7;
+    }
+    
+    .modalBtn {
+        padding: 28px 163px;
+    }
+    
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 26px 35px;
+    }
+    
+    .modalMask {
+        margin-bottom: 32px;
+        width: 100%;
+        padding: 24px 36px;
+    }
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+        height: 68px;
+        padding: 26px 35px 19px !important;
+    }
+    
+    .modalMask {
+        margin-bottom: 32px;
+        width: 100%;
+        max-width: 400px;
+        padding: 24px 36px;
+    }
+
+    .modalMask::-webkit-input-placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalMask::-moz-placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalMask:-ms-input-placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalMask::-ms-input-placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalMask::placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalPlace {
+        left: 85px !important;
+    }
+}
+
+
+@media (max-width:768px) {
+    .footer {
+        overflow:hidden;
+        background: #030303;
+        padding: 57px 20px 0;
+    }
+    
+    .footerContent {
+        width: 100%;
+    }
+    
+    .footerUnderContent {
+        padding:  30px 0 34px;
+        border-top: 1px solid #302E2E5f;
+        background: #030303;
+    }
+    
+    .footerUnderBlock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    
+    .footerUnderLeft, .footerUnderRight {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #969494;
+    }
+    
+    .footerUnderLeft {
+        margin-left: 10px;
+    }
+
+    .achorMain {
+        margin-bottom: 42px;
+    }
+    
+    .company { margin-bottom: 42px;
+      
+        display: -webkit-box;
+      
+        display: -ms-flexbox;
+      
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    .footerMainList {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 25px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .footerFI {
+        -ms-grid-column: 2;
+            grid-column-start: 2;
+        -ms-grid-row: 1;
+            grid-row-start: 1;
+    }
+    
+    
+    .name {
+        margin-left: 5px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 2px;
+      
+        letter-spacing: -0.04em;
+       
+        color: #fff;
+    }
+    .whoWe {
+        margin-left: 5px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1;
+        /* identical to box height, or 120% */
+    
+        letter-spacing: -0.02em;
+      
+        color: #5E6062;
+    }
+    
+    .footerumber {
+        display: block;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        text-decoration: none;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    
+    .mail {
+        margin-left: 10px;
+        margin-bottom: 25px;
+        font-size: 12px;
+        display: block;
+        text-decoration: none;
+    }
+    
+    
+    .footerBtn {
+        margin-bottom: 27px;
+        padding: 12px 10px;
+        font-size: 12px;
+    }
+    
+    .footerSocialBlock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .textUs_span {
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-right: 5px;
+        color: #969494;
+        font-size: 12px;
+    }
+    .icon {
+       
+    }
+
+    
+.whatsapp svg, .tg svg {
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
+}
+    
+    .whatsapp svg{
+      
+        width: 16px;
+        height: 16px;
+    }
+
+    
+    .tg svg{
+        margin-right: 5px;
+      
+        width: 19px;
+        height: 16px;
+    }
+
+    
+    .footerICtitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #FAFAFA;
+        -webkit-transition: all .35s  ease-in-out;
+        -o-transition: all .35s  ease-in-out;
+        transition: all .35s  ease-in-out;
+      
+    }
+    
+    .footerICtitle:hover {
+        color: #F84263;
+    }
+    
+    .footerCItitleD {
+        margin-bottom: 18px;
+    
+    }
+    
+    .footerCItitleB {
+        margin-bottom: 27px;
+    }
+    
+    .footerIClist {
+        display: -ms-grid;
+        display: grid;
+        gap: 6px;
+        padding-bottom: 40px;
+    }
+    
+    .footerIClink {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #969494;
+        -webkit-transition: all .35s  ease-in-out;
+        -o-transition: all .35s  ease-in-out;
+        transition: all .35s  ease-in-out;
+        cursor: pointer;
+    }
+    
+    .footerIClink:hover {
+        color: #F84263;
+    }
+    
+    .footerCIItemB {
+        margin-bottom: 6px;
+    }
+    
+    .footerCIItemUM {
+        margin-bottom: 4px;
+    }
+    
+    .footerCIItemM {
+        margin-bottom: 3px;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .modalDescr {
+        display: inline-block;
+        padding:  0 10px;
+        max-width: 406px;
+        margin-bottom: 32px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+    
+    .modalWarning {
+        display: inline-block;
+        margin-bottom: 20px;
+        max-width: 406px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+        opacity: 0.7;
+    }
+    
+    .modalBtn {
+        padding: 28px 163px;
+    }
+    
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 26px 35px;
+    }
+    
+    .modalMask {
+        margin-bottom: 32px;
+        width: 100%;
+        padding: 24px 36px;
+    }
+}
+
+@media (max-width:576px) {
+
+   
+  
+    .footer {
+        overflow:hidden;
+        background: #030303;
+        padding: 24px 0;
+    }
+
+    .footerIMainInfo {
+        text-align: center;
+    }
+    
+    .footerContent {
+        padding: 0;
+        width: 100%;
+    }
+    
+    .footerUnderContent {
+        padding:  24px 0 30px;
+        border-top: 1px solid #302E2E5f;
+        background: #030303;
+    }
+    
+    .footerUnderBlock {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .footerUnderLeft, .footerUnderRight {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #969494;
+    }
+    
+    .footerUnderLeft {
+        margin-bottom: 30px;
+    }
+
+    .achorMain {
+        margin-bottom: 30px;
+    }
+
+    .company {
+        text-align: center;
+        margin-bottom: 30px;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .companyWrap {
+        text-align: left;
+    }
+
+    .footerFI {
+        -ms-grid-column: auto;
+            grid-column-start: auto;
+        -ms-grid-row: auto;
+            grid-row-start: auto;
+    }
+    
+    .footerMainList {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: auto 25px auto 25px auto 25px auto;
+        grid-template-rows: repeat(4, auto);
+        gap: 25px;
+    }
+    
+    .footerMainList > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    
+    .footerMainList > *:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    
+    .footerMainList > *:nth-child(3) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+    
+    .footerMainList > *:nth-child(4) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 1;
+    }
+    
+    
+    .name {
+        margin-left: 10px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.04em;
+        margin-bottom: 3px;
+        color: #fff;
+    }
+    .whoWe {
+        margin-left: 10px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        /* identical to box height, or 120% */
+    
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #5E6062;
+    }
+    
+    .footerumber {
+        display: block;
+        margin-bottom: 16px;
+        margin-left: 10px;
+        text-decoration: none;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 17px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    
+    .mail {
+        margin-left: 10px;
+        margin-bottom: 25px;
+        font-size: 13px;
+        display: block;
+        text-decoration: none;
+    }
+    
+    
+    .footerBtn {
+        display: block;
+        margin:0 auto 27px;
+        padding: 21px 10px;
+        font-size: 12px;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .footerSocialBlock {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+    }
+    .textUs_span {
+        margin-bottom: 40px;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-right: 5px;
+        color: #969494;
+        font-size: 14px;
+    }
+    .footerItem {
+        margin: 0 auto;
+        display: inline-block;
+        max-width: 300px;
+        width: 100%;
+    }
+    .icon {
+        display: inline-block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-left: 8px;
+        -webkit-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out;
+    }
+    
+    .icon {
+        display: inline-block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 0;
+        margin-left: 8px;
+        -webkit-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out;
+    }
+    .whatsapp svg{
+     
+        width: 16px;
+        height: 16px;
+    }
+
+
+  
+    .tg svg{
+        margin-right: 5px;
+     
+        width: 19px;
+        height: 16px;
+    }
+
+    
+    
+    
+    .footerICtitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #FAFAFA;
+        -webkit-transition: all .35s  ease-in-out;
+        -o-transition: all .35s  ease-in-out;
+        transition: all .35s  ease-in-out;
+      
+    }
+    
+    .footerICtitle:hover {
+        color: #F84263;
+    }
+    
+    .footerCItitleD {
+        margin-bottom: 18px;
+    
+    }
+    
+    .footerCItitleB {
+        margin-bottom: 27px;
+    }
+    
+    .footerIClist {
+        display: -ms-grid;
+        display: grid;
+        gap: 7px;
+        padding-bottom: 40px;
+    }
+    
+    .footerIClink {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #969494;
+        -webkit-transition: all .35s  ease-in-out;
+        -o-transition: all .35s  ease-in-out;
+        transition: all .35s  ease-in-out;
+        cursor: pointer;
+    }
+    
+    .footerIClink:hover {
+        color: #F84263;
+    }
+    
+    .footerCIItemB {
+        margin-bottom: 6px;
+    }
+    
+    .footerCIItemUM {
+        margin-bottom: 4px;
+    }
+    
+    .footerCIItemM {
+        margin-bottom: 3px;
+    }
+
+    .logo {
+        width: 32px;
+    }
+    
+    
+    .modalPlace {
+        top: 14px;
+    }
+
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 7px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .modalDescr {
+        display: inline-block;
+        padding:  0 10px;
+        max-width: 406px;
+        margin-bottom: 12px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+    
+    .modalWarning {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 406px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+        opacity: 0.7;
+    }
+    
+    .modalBtn {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 14px 0;
+        font-size: 10px;
+    }
+    
+
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 100%;
+       
+        font-size:12px ;
+        height: 55px;
+        padding: 26px 25px 15px !important;
+    }
+    
+    .modalMask {
+        margin-bottom: 15px;
+        width: 100%;
+        height: 55px;
+        max-width: 100%;
+        font-size: 12px;
+        padding: 24px 25px;
+    }
+
+    .modalMask::-webkit-input-placeholder {
+        font-size: 12px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalMask::-moz-placeholder {
+        font-size: 12px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalMask:-ms-input-placeholder {
+        font-size: 12px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalMask::-ms-input-placeholder {
+        font-size: 12px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalMask::placeholder {
+        font-size: 12px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalPlace {
+        top: 21px !important;
+        left: 25px !important;
+    }
+    .modalInputBlockM {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}

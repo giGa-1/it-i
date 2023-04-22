@@ -1,0 +1,376 @@
+
+.tariffSection {
+    padding-top: 67px;
+    height: auto;
+}
+.adminBlock{
+    position: relative;
+}
+
+.tariffTittleBlock {
+    text-align: center;
+}
+
+.tariffTitle {
+    margin-bottom: 36px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 23px */
+
+    color: var(--deep-blue);
+}
+
+.modalTitle {
+    font-family: 'GothamProMedium';
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--deep-blue);
+}
+
+
+
+
+.modalDescr {
+    display: inline-block;
+    padding:  0 10px;
+    max-width: 406px;
+    margin-bottom: 32px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #607483;
+    opacity: 0.8;
+}
+
+.modalWarning {
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 406px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+    opacity: 0.7;
+}
+
+.modalBtn {
+    padding: 28px 163px;
+}
+
+.modalInput {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 68px;
+    padding: 26px 35px 20px !important;
+}
+
+.modalMask {
+    margin-bottom: 32px;
+    width: 100%;
+    padding: 24px 36px;
+}
+
+.tariffListBlock {
+    min-height: 1061px;
+}
+
+.mySwiper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px !important;
+}
+
+.tariffList {
+    min-height: 1061px;
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 25px;
+    margin-bottom: 30px;
+} 
+
+@media (max-width: 1200px) {
+    .tariffList {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 19px;
+    } 
+}
+
+@media (max-width: 992px) {
+    .tariffTitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 36px;
+        font-size: 32px;
+        line-height: 110%;
+        color: var(--deep-blue);
+    }
+
+    .tariffListBlock {
+        min-height: 400px;
+    }
+
+    .tariffList {
+        min-height: 100% !important;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 16px;
+    } 
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+        height: 68px;
+        padding: 26px 35px 19px !important;
+    }
+    
+    .modalMask {
+        margin-bottom: 32px;
+        width: 100%;
+        max-width: 400px;
+        padding: 24px 36px;
+    }
+
+    .modalMask::placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalPlace {
+        left: 85px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .tariffTitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 36px;
+        font-size: 24px;
+        line-height: 110%;
+        color: var(--deep-blue);
+    }
+
+    .tariffListBlock {
+        min-height: 450px;
+
+        height: auto;
+    }
+
+    .tariffList {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 16px;
+        padding: 0 15px;
+        margin-bottom: 50px;
+    } 
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+        height: 68px;
+        padding: 26px 35px 19px !important;
+    }
+    
+    .modalMask {
+        margin-bottom: 32px;
+        width: 100%;
+        max-width: 400px;
+        padding: 24px 36px;
+    }
+
+    .modalPlace {
+        left: 85px !important;
+    }
+}
+@media (min-width:576px) {
+    .pag {
+        display:none;
+    }
+}
+@media (max-width:576px) {
+
+    .modalPlace {
+        top: 14px;
+    }
+    .tariffSection {
+        min-height: 500px;
+    }
+    .tariffList {
+        /*display: none !important;*/
+        margin-bottom: 0;
+    }
+    .tariffSection {
+        padding-top: 33px;
+    }
+    .tariffTitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 14px;
+        font-size: 16px;
+    line-height: 120%;
+        color: var(--deep-blue);
+    }
+
+    .tariffListBlock {
+        height: auto;
+    }
+
+    .tariffList {
+        padding: 0 !important;
+        /*height: auto !important;*/
+        width: 100% !important;
+        display: flex !important;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        gap: 0;
+    } 
+    .pag {
+        display: block !important;
+        margin-top: 57px;
+        text-align: center;
+    }
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 7px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .modalDescr {
+        display: inline-block;
+        padding:  0 10px;
+        max-width: 406px;
+        margin-bottom: 12px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+    
+    .modalWarning {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 406px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+        opacity: 0.7;
+    }
+    
+    .modalBtn {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 14px 0;
+        font-size: 10px;
+    }
+
+
+    .modalMask {
+        margin: 0;
+        width: 100%;
+        padding: 14px 14px;
+        font-size: 10px;
+    }
+    
+    .modalMask::placeholder {
+        font-size: 10px;
+        color:  #83919B;
+    }
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 100%;
+        font-size:12px ;
+        height: 55px;
+        padding: 26px 25px 15px !important;
+    }
+    
+    .modalMask {
+        margin-bottom: 15px;
+        width: 100%;
+        height: 55px;
+        max-width: 400px;
+        font-size: 12px;
+        padding: 24px 25px;
+    }
+
+    .modalMask::placeholder {
+        font-size: 12px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalPlace {
+        top: 21px !important;
+        left: 25px !important;
+    }
+    .modalInputBlockM {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .slide:first-child {
+        margin-left: 12px;
+    }
+
+    .slide {
+        /* display: flex !important;
+        align-content: stretch;
+        align-items: stretch !important; 
+        height: 100% !important; */
+        max-width: 226px;
+        margin-right: 12px;
+    }
+    
+    
+.mySwiper {
+    padding: 0 15px;
+}
+}
+
+

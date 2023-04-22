@@ -1,0 +1,21 @@
+.countSection {
+    padding-top: 77px;
+}
+
+@media (max-width:992px) {
+    .countSection {
+        padding-top: 65px;
+    }
+}
+
+@media (max-width:768px) {
+    .countSection {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:576px) {
+    .countSection {
+        padding-top: 20px;
+    }
+}

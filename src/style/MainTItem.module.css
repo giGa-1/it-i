@@ -1,0 +1,771 @@
+.tariffItem {
+    padding: 50px 80px 50px ;
+    min-height: 520px;
+    box-shadow: 0px 14px 24px rgba(207, 201, 201, 0.25);
+    border-radius: 5px;
+    height: 100%;
+}
+
+
+.modalChangeIcon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0;pointer-events: none;
+    transition: all .35s ease-in-out;
+    z-index: 5;
+}
+
+.modalChangeActive {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.drop, .drag {
+    height: 50px;
+    max-width: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;justify-content: center;
+    font-size: 16px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    border: 3px solid var(--pink-color);
+    border-radius: 3px;
+    transition: all;
+    color: #989898;
+}
+
+.drop {
+    border: 3px dashed var(--pink-color);
+}
+.changeItemBtn {
+    display: inline-block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: #efefef;
+    padding: 5px 10px;
+    color: #CACACA;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tariffPriceContent {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+}
+
+.tariffContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding-top: 10px;
+    height: 100%;
+}
+
+.tariffImg1 {
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    background-image: url('../../public/img/mac-grid.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tariffImg2 {
+    display: inline-block;
+    width: 41px;
+    height: 37px;
+    background-image: url('../../public/img/visit-card-grid.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tariffImg {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.tariffImg img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.tariffImg3 {
+    display: inline-block;
+    width: 37px;
+    height: 33px;
+    background-image: url('../../public/img/site-grid.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tariffImg4 {
+    display: inline-block;
+    width: 40px;
+    height: 33px;
+    background-image: url('../../public/img/search.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tariffImg5 {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-image: url('../../public/img/market-grid.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tariffImg6 {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-image: url('../../public/img/cloud-grid.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tariffHeader {
+    text-align: center;
+}
+
+.tariffTitle {
+    margin: 36px 0 26px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #25495C;
+}
+
+.tariffCList {
+    margin-bottom: 43px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 14px;
+    height: 103px;
+}
+
+.tariffСlause {
+    display: flex;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+.tariffCycle {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 16px;
+    background-image: url('../../public/img/circle.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tariffClauseText {
+    display: inline-block;
+    max-width: 180px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+
+.tariffPriceBlock {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.tariffPriceinside {
+    margin-right: 4px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #25495C;
+}
+
+.tariffPrice {
+    margin-right: 5px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #25495C;
+}
+
+.tariffPriceRuble {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #25495C;
+}
+
+.tariffTermBlock {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.tariffTerm {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+
+    letter-spacing: -0.02em;
+
+    color: #607483;
+}
+
+.tariffBtnBlock {
+    text-align: center;
+}
+
+.tariffButton {
+    padding: 15px 47px;
+    color: #F84263;
+    border: 1px solid #F84263f3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.tariffButton:hover {
+    color: #fff;
+    background-color: #F84263;
+}
+
+
+.modalTitle {
+    font-family: 'GothamProMedium';
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--deep-blue);
+}
+
+.modalDescr {
+    display: inline-block;
+    padding:  0 10px;
+    max-width: 406px;
+    margin-bottom: 32px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #607483;
+    opacity: 0.8;
+}
+
+.modalWarning {
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 406px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+    opacity: 0.7;
+}
+
+.modalBtn {
+    padding: 28px 163px;
+}
+
+.modalInput {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 26px 35px;
+}
+
+.modalMask {
+    margin-bottom: 32px;
+    width: 100%;
+    padding: 24px 36px;
+}
+
+@media (max-width: 1200px) {
+    .tariffItem {
+        padding: 44px 67px 46px ;
+        box-shadow: 0px 14px 24px rgba(207, 201, 201, 0.25);
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+    .tariffItem {
+        padding: 39px 37px 39px ;
+        min-height: 400px;
+        box-shadow: 0px 14px 24px rgba(207, 201, 201, 0.25);
+        border-radius: 5px;
+    }
+    .tariffTitle {
+        margin: 36px 0 26px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        color: #25495C;
+    }
+    
+    .tariffCList {
+        margin-bottom: 26px;
+        min-height: 100px;
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 7px;
+        height: 83px;
+    }
+
+    .tariffClauseText {
+        display: flex;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #607483;
+    }
+    
+    .tariffСlause {
+        display: flex;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #607483;
+    }
+    
+    .tariffCycle {
+        width: 9px;
+        height: 9px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-right: 10px;
+        background-image: url('../../public/img/circle.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .tariffClauseText {
+        display: inline-block;
+        max-width: 180px;
+    }
+    
+    
+    .tariffPriceBlock {
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    
+    .tariffPriceinside {
+        margin-right: 4px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #25495C;
+    }
+    
+    .tariffPrice {
+        margin-right: 5px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #25495C;
+    }
+    
+    .tariffPriceRuble {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #25495C;
+    }
+    
+    .tariffTermBlock {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .tariffTerm {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 120%;
+        /* or 18px */
+    
+        letter-spacing: -0.02em;
+    
+        color: #607483;
+    }
+    
+    .tariffBtnBlock {
+        text-align: center;
+    }
+    
+    .tariffButton {
+        padding: 13px 47px;
+        color: #F84263;
+        border: 1px solid #F84263f3;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 11px;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all .6s ease;
+    }
+    
+    .tariffButton:hover {
+        color: #fff;
+        background-color: #F84263;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .tariffItem {
+        padding: 29px 15px 29px ;
+        box-shadow: 0px 14px 24px rgba(207, 201, 201, 0.25);
+        width: 100%;
+        border-radius: 5px;
+    }
+    .slide {
+        width: 288px;
+    }
+    .tariffTitle {
+        margin: 26px 0 16px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        color: #25495C;
+    }
+
+    .tariffCIBlock {
+        text-align: center;
+    }
+    
+    .tariffCList {
+        margin-bottom: 10px;
+        display: inline-grid;
+        grid-template-rows: repeat(3, auto);
+        min-height: 83px;
+        height: auto;
+    }
+
+    .tariffClauseText {
+        display: flex;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #607483;
+        white-space: pre-wrap;
+    }
+    
+    .tariffСlause {
+        display: flex;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        color: #607483;
+        white-space: pre-wrap;
+    }
+    
+    .tariffCycle {
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        margin-top: 2px;
+        margin-right: 7px;
+        margin-top: 3px;
+        background-image: url('../../public/img/circle.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .tariffClauseText {
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+        max-width: 180px;
+    }
+    
+    
+    .tariffPriceBlock {
+        margin-bottom: 7px;
+        text-align: center;
+    }
+    
+    .tariffPriceinside {
+        margin-right: 4px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110%;
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #25495C;
+    }
+    
+    .tariffPrice {
+        margin-right: 5px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110%;
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #25495C;
+    }
+    
+    .tariffPriceRuble {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 110%;
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #25495C;
+    }
+    
+    .tariffTermBlock {
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    
+    .tariffTerm {
+        display: inline-block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 120%;
+        /* or 18px */
+        max-width: 90px;
+        letter-spacing: -0.02em;
+        white-space: pre-wrap;
+        color: #607483;
+    }
+    
+    .tariffBtnBlock {
+        text-align: center;
+    }
+    
+    .tariffButton {
+        padding: 11px 42px;
+        color: #F84263;
+        border: 1px solid #F84263f3;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 11px;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all .6s ease;
+    }
+    
+    .tariffButton:hover {
+        color: #fff;
+        background-color: #F84263;
+    }
+}
+
+@media (max-width:576px) {
+
+    .tariffItem {
+        height: 100% !important;
+        padding: 29px 35px 22px ;
+        min-height: 365px;
+        box-shadow: 0px 14px 24px rgba(207, 201, 201, 0.25);
+        border-radius: 5px;
+        margin: 0 auto;    
+    }
+
+    .tariffButton {
+        margin-top: 10px;
+        padding: 0;
+        width: 100%;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .tariffCycle {
+        height: 7px;
+        width: 7px;
+    }
+
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 5px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .modalDescr {
+        display: inline-block;
+        padding:  0 10px;
+        max-width: 406px;
+        margin-bottom: 12px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+    
+    .modalWarning {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 406px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+        opacity: 0.7;
+    }
+    
+    .modalBtn {
+        width: 100%;
+        padding: 18px 0;
+        font-size: 10px;
+    }
+    
+    .modalInput {
+        margin-bottom: 10px;
+        height: 44px;
+        width: 100%;
+        
+        font-size: 10px;
+    }
+
+    .modalInput::placeholder {
+        font-size: 10px;
+    }
+    
+    .modalMask {
+        margin: 0;
+        width: 100%;
+        padding: 14px 14px;
+        font-size: 10px;
+    }
+    
+    .modalMask::placeholder {
+        font-size: 10px;
+    }
+
+}

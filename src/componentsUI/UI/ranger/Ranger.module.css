@@ -1,0 +1,256 @@
+.wrapper{
+    position: relative;
+    width: 96vmin;
+    background-color: #ffffff;
+    padding: 50px 40px 20px 40px;
+    border-radius: 10px;
+}
+.rangeListM {
+    display: none;
+}
+.container{
+    position: relative;
+    width: 103%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+.sliderTrack{
+    /*box-sizing: border-box;*/
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.slider {
+    font-family: 'GothamProLight';
+    margin-left: 5%;
+}
+.values{
+    left: -70px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 0;
+    /*line-height: 5em;*/
+    background: #607483;
+    border-radius: 5px;
+    width: 137px;
+    height: 42px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.valuer {
+    width: 250px !important;
+    left: -125px;
+}
+.values:after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 5px solid #607483;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin: auto;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+}
+
+.wrapCard {
+    position: relative;
+}
+
+.wrapValues {
+    bottom:180px;
+    position: absolute;
+}
+
+.rangeList {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    bottom: 100px;
+
+}
+.rangeList option {
+    /*width: 17%;*/
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #9C9595;
+}
+
+@media (max-width:992px) {
+    .fuckingWrap {
+        right: 10px;
+    }
+    .container{
+
+        position: relative;
+        width: 103%;
+        height: 200px;
+        margin-top: 30px;
+        margin-left: -10px;
+        margin-bottom: 50px;
+    }
+    .wrapValues {
+        bottom:130px;
+        position: absolute;
+    }
+
+    .rangeList {
+        transform: translateY(30px);
+    }
+    .rangeList option {
+       font-size: 10px;
+    }
+}
+.rangeText {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*margin: 0 auto;*/
+}
+@media (max-width:576px) {
+   
+    .fuckingWrap {
+        left: 14px !important;
+        right: 6.5px !important;
+    }
+    .container{
+        position: relative;
+        width: 87%;
+        height: 100px;
+        margin: 26px auto;
+    }
+    .wrapValues {
+        padding-bottom: 4px;
+        bottom:70px;
+        position: absolute;
+    }
+
+    /*.sliderTrack{*/
+    /*    !*box-sizing: border-box;*!*/
+    /*    width: 100%;*/
+    /*    height: 2px;*/
+    /*    position: absolute;*/
+    /*    margin: auto;*/
+    /*    transform: translateX(-20px);*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    border-radius: 5px;*/
+    /*}*/
+
+    .rangeList {
+        transform: translateY(-105px);
+    }
+    .rangeList option {
+       font-size: 10px;
+    }
+
+    .values{
+        left: -43px;
+        position: relative;
+        box-sizing: border-box;
+        /*padding: 10px 0 10px;*/
+        /*line-height: 5em;*/
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #607483;
+        border-radius: 5px;
+        width: 80px;
+        height: 32px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .valuer {
+        width: 150px !important;
+        left: -79px !important;
+    }
+    .values span {
+        margin: 0;
+
+        /*padding-left: 3px;*/
+        width: 100%;
+        display: block;
+        /*position: absolute;*/
+        /*top: 10px;*/
+        /*left: 15px;*/
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .rangeList {
+        display: none;
+    }
+
+    .rangeListM {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: -10px;
+        bottom: 10px;
+        width: 110%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .rangeListM option {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 9px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #9C9595;
+    }
+    /*.rangeListM option:nth-child(2), .rangeListM option:nth-child(3) {*/
+    /*    margin-right: -10%;*/
+    /*}*/
+}
+
+.fuckingWrap {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    right: 10.5px;
+    bottom: 0;
+}
+.wrapSwipers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

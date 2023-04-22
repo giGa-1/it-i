@@ -1,0 +1,95 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.btns {
+    background: white !important;
+}
+@media (min-width: 576px) {
+   .btns {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+
+   }
+}
+/*@media (max-width: 576px) {*/
+   .swipeSl {
+       -webkit-box-shadow: none;
+               box-shadow: none;
+       width:auto !important;
+       margin-right:10px;
+   }
+/*}*/
+.btn {
+   cursor: pointer;
+  
+   background: #FFFFFF;
+   border-radius: 100px;
+   font-family: 'GothamProRegular';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 15px;
+   text-align: center;
+   letter-spacing: -0.02em;
+   color: #607483;
+   -webkit-transition: all .35s ease-in-out;
+   -o-transition: all .35s ease-in-out;
+   transition: all .35s ease-in-out;
+   height: 50px;
+   padding:17px 24px;
+}
+
+.btn:hover {
+   background: #607483 !important;
+   color: #FFFFFF !important;
+}
+
+.btnSelected {
+   padding:17px 24px;
+   height: 50px;
+   /*line-height: 15px;*/
+   background: #607483 !important;
+   -webkit-box-shadow: 0 14px 24px rgba(207, 201, 201, 0.25) !important;
+   /*box-shadow: 0 14px 24px rgba(207, 201, 201, 0.25) !important;;*/
+   box-shadow: none;
+   /*border-radius: 100px !important;;*/
+   color: #FFFFFF !important;
+}
+
+@media (max-width:768px) {
+   .btn {
+       cursor: pointer;
+       background: #FFFFFF;
+       border-radius: 100px;
+       font-family: 'GothamProRegular';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 15px;
+       text-align: center;
+       letter-spacing: -0.02em;
+       color: #607483;
+       -webkit-transition: all .35s ease-in-out;
+       -o-transition: all .35s ease-in-out;
+       transition: all .35s ease-in-out;
+       height: 40px;
+       padding:10px 20px;
+   }
+   
+   .btnSelected {
+       padding:10px 20px;
+       height: 40px;
+       /*line-height: 15px;*/
+       background: #607483 !important;
+       -webkit-box-shadow: 0 14px 24px rgba(207, 201, 201, 0.25) !important;
+       /*box-shadow: 0 14px 24px rgba(207, 201, 201, 0.25) !important;;*/
+       box-shadow: none;
+       /*border-radius: 100px !important;;*/
+       color: #FFFFFF !important;
+   }
+}

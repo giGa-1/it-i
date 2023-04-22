@@ -1,0 +1,536 @@
+
+.allOtherContent {
+    position: relative;
+    background: linear-gradient(260deg, #778D9D 18%, #6F818F 86%);
+    mix-blend-mode: multiply;
+    overflow: hidden;
+}
+
+.adminBlock {
+    position: relative;
+}
+
+.otherItemBtn {
+    margin-top: 33px;
+}
+/* MainOther_otherTitleFirst__XYNj2 */
+.otherItemBlock {
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    display: inline-block;
+    background-image: url('../../public/img/it-bgjpg.WebP');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100%;
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+
+.otherContent {
+    text-align: center;
+    padding-top: 94px;
+}
+
+.otherTitle {
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+   
+}
+
+.otherTitleFirst, .otherTitleItem {
+    display: inline-block;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.otherTitleItem {
+    color: rgba(255, 255, 255, 0.532);
+}
+
+.otherListBlock {
+    margin-bottom: 65px;
+}
+
+.otherItem {
+    justify-content: space-between;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    padding: 41px 37px 38px;
+    background: #576C7D;
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.otherItemTitle {
+    margin-bottom: 20px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.otherItemImgBlock {
+    display: inline-block;
+    margin-bottom: 33px;
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+   
+    object-fit: contain;
+
+}
+
+
+.otherItemBtn {
+    width: 100%;
+    padding: 17px 43px;
+    border: 1px solid #ffffff40;
+    color: #FFFFFF;
+    transition: all .4s ease-in-out;
+}
+
+.otherItemBtn:hover {
+    background-color: #ffffff3f;
+    border: 1px solid #ffffff3f;
+}
+
+.otherList {
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 20px  ;
+}
+
+
+.otherBtn {
+    padding: 28px 70px;
+    margin-bottom: 87px;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.modalTitle {
+    font-family: 'GothamProMedium';
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--deep-blue);
+}
+
+.modalDescr {
+    display: inline-block;
+    padding: 0 10px;
+    max-width: 406px;
+    margin-bottom: 32px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #607483;
+    opacity: 0.8;
+}
+
+.modalWarning {
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 406px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+    opacity: 0.7;
+}
+
+.modalBtn {
+    padding: 28px 163px;
+}
+
+.modalInput {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 26px 36px;
+}
+
+.modalMask {
+    margin-bottom: 32px;
+    width: 100%;
+    padding: 24px 37px;
+}
+
+@media (max-width: 1200px) {
+    .otherList {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .otherTitle {
+        margin-bottom: 30px;
+      
+    }
+
+    .otherTitleFirst, .otherTitleItem {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+    }
+
+
+    .otherList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .otherListBlock {
+        padding: 0 30px;
+        margin-bottom: 45px;
+    }
+
+    .otherItem {
+        text-align: center;
+        padding: 32px 23px 28px;
+        background: #576C7D;
+        backdrop-filter: blur(24px);
+        border-radius: 10px;
+        z-index: 10;
+    }
+
+    .otherBtn {
+        padding: 25px 50px;
+        margin-bottom: 67px;
+        font-size: 12px;
+        line-height: 11px;
+    }
+
+    .otherItemBtn {
+        width: 100%;
+        padding: 15px 23px;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        transition: all .4s ease-in-out;
+    }
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+        height: 68px;
+        padding: 26px 35px 19px !important;
+    }
+    
+    .modalMask {
+        margin-bottom: 32px;
+        width: 100%;
+        max-width: 400px;
+        padding: 24px 36px;
+    }
+
+    .modalMask::placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalPlace {
+        left: 85px !important;
+    }
+    .otherItemBtn {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .otherList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .otherItemBtn {
+        margin-top: 28px;
+    }
+    
+
+}
+
+@media (max-width: 576px) {
+
+    .btnCont {
+        padding: 0 15px;
+    }
+
+    .otherContent {
+        padding-top: 40px;
+    }
+
+    .otherTitleFirst, .otherTitleItem {
+        font-size: 18px;
+        line-height: 110%;
+    }
+
+   
+
+    .otherList {
+        display: flex !important;
+        grid-template-columns: none !important;
+        gap: 0 !important;
+
+    }
+
+    .otherListBlock {
+        padding: 0;
+    }
+
+    .container {
+        /*margin-left: 10px;*/
+    }
+
+    .otherBtn {
+        width: 100%;
+        max-width: 300px;
+        padding: 20px 0;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 5px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+
+    .modalDescr {
+        display: inline-block;
+        padding: 0 10px;
+        max-width: 406px;
+        margin-bottom: 12px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+
+    .modalWarning {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 406px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+        opacity: 0.7;
+    }
+
+    .otherItem {
+        max-width: 228px;
+        padding: 23px 21px 21px;
+        margin: 0;
+    }
+    .swipeSl:last-child {
+        padding-right: 15px;
+    }
+    .swipeSl {
+        max-width: 228px;
+
+        padding-left: 15px;
+
+    }
+    .otherItemTitle {
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 30px;
+    }
+
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 7px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+
+    .modalDescr {
+        display: inline-block;
+        padding: 0 10px;
+        max-width: 406px;
+        margin-bottom: 12px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+
+    .modalWarning {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 406px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+        opacity: 0.7;
+    }
+
+    .modalBtn {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 14px 0;
+        font-size: 10px;
+    }
+
+    .modalInput {
+        margin-bottom: 10px;
+        height: 44px;
+        width: 100%;
+        padding: 16px 15px 7px;
+        font-size: 10px;
+    }
+
+    .modalInput::placeholder {
+        font-size: 10px;
+    }
+
+    .modalMask {
+        margin: 0;
+        width: 100%;
+        padding: 14px 15px;
+        font-size: 10px;
+    }
+
+    .modalMask::placeholder {
+        font-size: 10px;
+        color: #83919B;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 1170px;
+        padding: 0;
+        height: 100%;
+    }
+
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 100%;
+        font-size:12px ;
+        height: 55px;
+        padding: 26px 25px 15px !important;
+    }
+    
+    .modalMask {
+        margin-bottom: 15px;
+        width: 100%;
+        height: 55px;
+        max-width: 100%;
+        font-size: 12px;
+        padding: 24px 25px;
+    }
+
+    .modalMask::placeholder {
+        font-size: 12px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalPlace {
+        top: 21px !important;
+        left: 25px !important;
+    }
+
+    .modalInputBlockM {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .otherItemBtn {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .otherItemBtn {
+        margin-top: 25px;
+    }
+}
+
+/*@media (min-width: 576px) {*/
+/*    .mySwiper {*/
+/*        display: none;*/
+/*    }*/
+/*}*/

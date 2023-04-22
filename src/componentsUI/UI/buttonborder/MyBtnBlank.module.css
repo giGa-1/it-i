@@ -1,0 +1,25 @@
+
+
+.myBtn {
+    border: 1px solid #f842633f;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--pink-color);
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    cursor: pointer;
+}
+
+.myBtn:hover {
+    color: #fff;
+    background-color: var(--pink-color);
+}

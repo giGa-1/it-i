@@ -1,0 +1,19 @@
+.crm {
+    margin-top: 50px;
+    max-width: 600px;
+    width: 100%;
+    min-height: 340px;
+    background-image: url('../../public/img/crm-img.WebP');
+    background-position: center;
+    background-size: contain;
+}
+
+.grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width:1200px) {
+    .crm {
+        max-width: 500px;
+    }
+}

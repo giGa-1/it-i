@@ -1,0 +1,190 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+.modalTitle {
+    margin-bottom: 32px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.modalDescr {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding:  0 10px;
+    color: #607483;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+
+@media (max-width:576px) {
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 5px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .modalDescr {
+        display: inline-block;
+        padding:  0 10px;
+        max-width: 406px;
+        margin-bottom: 12px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+}
+
+.modalBlock {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: start;
+       -ms-flex-align: start;
+           align-items: start;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 10000;
+    overflow: hidden;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modalContent {
+    position: relative;
+    text-align: center;
+     margin-top: 15vh;
+    padding: 50px 70px 55px;
+    max-width: 560px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transform: translateX(10vw);
+        -ms-transform: translateX(10vw);
+            transform: translateX(10vw);
+    z-index: 100000;
+    opacity: 0;
+}
+
+
+.modalBlock.active {
+pointer-events: all;
+   opacity: 1;
+}
+
+.modalBlock .activeContent {
+   -webkit-transform: none;
+       -ms-transform: none;
+           transform: none;
+   opacity: 1;
+
+}
+
+.modalExit {
+    display: inline-block;
+    position: absolute;
+    top: 19px;right: 17px;
+    width: 30px;
+    height: 30px;
+    background-image: url('../../../../public/img/exit-modal.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+@media (max-width:992px) {
+    .modalContent {
+        text-align: center;
+         margin-top: 10vh;
+         min-height: 20vh;
+        padding: 40px 30px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        z-index: 100000;
+    }
+}
+
+@media (max-width:768px) {
+    .modalTitle {
+        font-family: 'GothamProMedium';
+       
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 20px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+}
+
+@media (max-width:576px) {
+    .modalContent {
+        text-align: center;
+         margin: 15vh 15px;
+         min-height: 120px;
+         max-width: 400px;
+        padding: 20px 30px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        z-index: 100000;
+    }
+
+    .modalExit {
+        display: inline-block;
+        position: absolute;
+        top: 10px;right: 10px;
+        width: 25px;
+        height: 25px;
+        background-image: url('../../../../public/img/exit-modal.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+}

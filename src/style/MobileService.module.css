@@ -1,0 +1,311 @@
+
+.serviceTitle {
+    margin-bottom: 32px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #25495C;
+}
+
+.adminKey {
+    position: relative;
+}
+
+.imgBlock {
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    z-index: 10;
+    width: 120px;
+}
+.changeItemBtn {
+    right: 0;
+    left: auto;
+}
+
+.drop, .drag {
+    margin-top: 40px;
+    height: 50px;
+    max-width: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;
+    font-size: 14px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    border: 3px solid var(--pink-color);
+    border-radius: 3px;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+    color: #989898;
+}
+
+.drop {
+    border: 3px dashed var(--pink-color);
+}
+
+
+.serviceList {
+    position:relative;
+}
+.serviceDescr {
+    margin: 0 auto 50px;
+    max-width: 945px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #607483;
+}
+
+.serviceImg img {
+    width: 36px;
+    height: 36px;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+.serviceList {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: 1fr 35px 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 35px;
+}
+
+.serviceList > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.serviceList > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+.serviceList > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+}
+
+.serviceList > *:nth-child(4) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+
+.serviceList > *:nth-child(5) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+}
+
+.serviceList > *:nth-child(6) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+}
+
+.serviceItem {
+    padding: 50px 40px 20px;
+    min-height: 297px;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E8E9EA;
+    border-radius: 5px;
+}
+
+.serviceItemBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    min-height: 220px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+
+.serviceItemTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    min-height:  45px;
+
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.serviceItemDescr {
+    min-height: 100px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+
+
+
+@media (max-width:992px) {
+    .serviceItem {
+        padding: 40px 20px 20px;
+        min-height: 297px;
+        background: #FFFFFF;
+        border: 1px solid #E8E9EA;
+        border-radius: 5px;
+    }
+    .serviceList {
+
+        -webkit-column-gap: 15px;
+
+           -moz-column-gap: 15px;
+
+                column-gap: 15px;
+        row-gap: 25px;
+    }
+    .serviceTitle  {
+        font-size: 35px;
+    }
+    .serviceItemTitle {
+        font-size: 16px;
+    }
+    .serviceItemDescr {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:768px) {
+    .serviceTitle  {
+        font-size: 25px;
+    }
+    .serviceList {
+        -ms-grid-columns: 1fr 20px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        -ms-grid-rows: 1fr 25px 1fr 25px 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        -webkit-column-gap: 20px;
+           -moz-column-gap: 20px;
+                column-gap: 20px;
+        row-gap: 25px;
+    }
+    .serviceList > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .serviceList > *:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+    }
+    .serviceList > *:nth-child(3) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .serviceList > *:nth-child(4) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+    }
+    .serviceList > *:nth-child(5) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+    .serviceList > *:nth-child(6) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 3;
+    }
+}
+
+
+.pag {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .serviceTitle  {
+        font-size: 16px;
+    }
+    .pag {
+        display: block;
+        margin-top: 27px;
+        text-align: center;
+    }
+    .swiperSl {
+        width: 288px;
+    }
+    .serviceList {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-grid-columns: none;
+        grid-template-columns: none;
+        -ms-grid-rows: none;
+        grid-template-rows: none;
+        -webkit-column-gap: 0;
+           -moz-column-gap: 0;
+                column-gap: 0;
+        row-gap: 0;
+    }
+    .serviceList > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+}

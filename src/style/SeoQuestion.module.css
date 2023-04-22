@@ -1,0 +1,84 @@
+/* .accBlock .accItem {
+    max-height: 150px;
+} */
+
+.accItem {
+    padding-right:150px;
+}
+.accordionDescr {
+    font-size: 16px !important;
+}
+
+.questSection {
+    padding: 85px 0 80px;
+}
+
+.questTitle {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+@media (max-width:992px) {
+    .questTitle {
+        margin-bottom: 45px;
+        text-align: center;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #25495C;
+    }
+}
+@media (max-width:768px) {
+    .accordionDescr {
+        margin-top: 30px;
+        font-size: 14px !important;
+        padding: 0;
+       
+    }
+    .questTitle {
+        margin-bottom: 35px;
+        text-align: center;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #25495C;
+    }
+}
+@media (max-width:576px) {
+    .accBlock .accItem {
+        max-height: 350px;
+    }
+    .accItem {
+        padding-right: 60px;
+    }
+    .questSection {
+        padding: 30px 0 40px;
+    }
+    .questTitle {
+        margin-bottom: 25px;
+        text-align: center;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #25495C;
+    }
+}

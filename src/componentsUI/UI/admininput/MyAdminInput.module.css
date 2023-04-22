@@ -1,0 +1,75 @@
+.labelAdmin {
+    position: relative;
+}
+
+.saveAdminBottom, .cancelAdminBottom {
+    position: absolute;
+    color: #ACACAC;
+    background: #fff;
+    border: 2px solid #ACACAC;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+
+.saveAdminBottom:hover {
+    background-color: rgb(72, 230, 93);
+}
+
+ .cancelAdminBottom:hover {
+    background-color: rgb(228, 47, 47);
+ }
+
+ .saveAdminBottom {
+    bottom: -35px;
+    right: 90px;
+   
+}
+
+.cancelAdminBottom {
+    bottom: -35px;
+    right: 0px; 
+}
+
+.saveAdmin, .cancelAdmin {
+    position: absolute;
+    color: #ACACAC;
+    background: #fff;
+    border: 2px solid #ACACAC;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+
+.saveAdmin:hover {
+    background-color: rgb(72, 230, 93);
+}
+
+ .cancelAdmin:hover {
+    background-color: rgb(228, 47, 47);
+ }
+
+.saveAdmin {
+    top: -35px;
+    right: 90px;
+   
+}
+
+.cancelAdmin {
+    top: -35px;
+    right: 0px; 
+}
+
+.inputAdmin {
+    width: 100%;
+    resize: vertical;
+    overflow: hidden;
+}
+
+.inputAdmin::-webkit-scrollbar {
+    opacity: 0;
+}

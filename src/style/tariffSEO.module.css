@@ -1,0 +1,390 @@
+.red {
+    background: #F8426310;
+    color: #F84263;
+}
+
+.green {
+    background: #7BA56210;
+    color: #4C6A3A;
+}
+
+.changeItem {
+    display: inline-block;
+    position: absolute;
+    right: 0;bottom: 0;
+    padding: 5 10px;
+    font-size: 12px;
+    color: #ACACAC;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.changeModal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    right: 0;
+    height: 100%;
+    min-height: 400px;
+    width:100%;
+    padding: 30px 20px;
+    transition: all .35s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+    background-color: #fff;
+}
+
+.labelColor {
+    font-size: 16px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    color: #ACACAC;
+}
+
+.contetnModal {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.contetnModal button {
+    height: 40px;
+    width: 100%;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+
+.activeModal {
+    opacity: 1;
+    pointer-events: all;
+}
+.blue {
+    background: #4280F810;
+    color: #3952AB;
+}
+
+.yellow {
+    background: #E89B2810;
+    color: #FB8B24;
+}
+
+.gray {
+    background: #75727010;
+    color: #9098A8;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.titleText {
+    margin-bottom: 10px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.text {
+    max-width: 800px;
+    margin-top: 26px;
+    text-align: center;
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #607483;
+    margin-bottom: 30px;
+}
+
+.swiperSl {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 24px rgba(207, 201, 201, 0.25) !important;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 367px;
+    min-height: 450px;
+}
+
+.pag {
+    display: block;
+    /*margin-top: 15px !important;*/
+    top: 0;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.swiper {
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.titleCase {
+    padding: 16px 5px;
+    min-height: 55px;
+    box-shadow: 0px 14px 24px rgba(207, 201, 201, 0.25);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.swiperSl {
+    min-height: 400px;
+    padding-bottom: 190px;
+}
+
+.titleCaseSpan {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+}
+
+.wrapList {
+    margin: 0;
+    text-align: left;
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #607483;
+    background: white;
+    padding-top: 30px;
+    /*margin-bottom: 46px;*/
+}
+
+.listItem {
+    align-items: baseline;
+    margin-bottom: 13px;
+    display: flex;
+    text-align: left;
+    /*align-items: center;*/
+   
+}
+
+.listItem:last-child {
+    margin: 0;
+}
+
+.listTitle {
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+.circle {
+    flex-shrink: 0;
+    margin-left: 77px;
+    /*content: '';*/
+    border: 2px solid #25495C;
+    display: block;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.caserText {
+    /*margin-bottom: 73px;*/
+    margin-left: 72px;
+    text-align: left;
+    /*margin-top: 30px;*/
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #607483;
+    max-width: 250px;
+}
+
+.price {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #25495C;
+    margin-bottom: 35px;
+}
+
+.btn {
+    min-height: 50px;
+    width: 200px;
+}
+
+.btnWrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 42px;
+}
+
+.wrapperSlid {
+    justify-content: center;
+    padding-right: 10px;
+    margin-bottom: 37px;
+}
+
+@media (min-width: 1200px) {
+
+
+
+    .circle {
+        margin-left: 50px
+    }
+}
+
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 35px;
+    }
+    .swiper {
+        margin-top: 35px;
+        margin-bottom: 70px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .caserText {
+        margin: 0 auto ;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+    .swiper {
+        margin-top: 25px;
+        margin-bottom: 55px;
+    }
+    .swiperSl {
+        width: 320px;
+        min-height: 400px;
+    }
+    .circle {
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+    .btnWrap {
+        /*margin-top: 34px;*/
+        /*position: relative;*/
+        /*bottom: 0;*/
+    }
+
+    .text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 16px;
+    }
+    .swiperSl {
+        padding-bottom: 150px !important;
+        width: 250px;
+        min-height: 306px;
+    }
+    .titleCase  {
+        height: 42px;
+        min-height: auto;
+        padding: 12px 0;
+    }
+    .titleCaseSpan {
+        font-size: 13px;
+    }
+    .wrapList {
+        min-height: 145px;
+    }
+    .circle {
+        margin-left: 23px;
+        margin-right: 10px;
+        margin-top: 3px;
+    }
+    .listItem {
+        align-items: start;
+      
+    }
+    .listTitle {
+        font-size: 12px;
+        margin-bottom: 7px;
+        margin-right: 13px;
+    }
+    .btnWrap {
+        /*margin-top: 34px;*/
+        /*position: relative;*/
+        bottom: 0;
+    }
+    .price {
+        font-size: 12px;
+    }
+    .btn {
+        min-height: 40px;
+        max-width: 141px;
+        margin-bottom: 28px;
+    }
+    .swiperSl {
+        margin-left:5px;
+        margin-right:5px;
+    }
+    .text {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .titleText {
+        font-size: 14px;
+        margin: 0;
+    }
+    .caserText {
+        margin-left: 23px;
+        margin-right: 15px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+

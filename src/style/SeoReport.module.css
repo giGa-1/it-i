@@ -1,0 +1,237 @@
+.reportSection {
+    padding: 90px 0;
+}
+.reportListBLock {
+    position:relative;
+}
+
+.reportTitle {
+    max-width: 1050px;
+    margin: 0 auto 90px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    /* or 48px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #25495C;
+}
+
+.reportList {
+    max-width: 1000px;
+    margin: 0 auto 88px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: start;
+    column-gap: 150px;
+    row-gap: 30px;
+}
+
+.reportItemList {
+    position:relative;
+}
+
+.reportItem {
+    max-width: 375px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    align-items: start;
+    gap: 27px;
+}
+
+.reportImgBlock {
+    margin-top: 4px;
+}
+
+.reportDescr {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
+
+    letter-spacing: -0.02em;
+
+    color: #607483;
+}
+
+.reportResult {
+    display: grid;
+    grid-template-columns: 2fr 2fr 7fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 24px rgba(207, 201, 201, 0.25);
+    border-radius: 10px;
+    min-height: 210px;
+}
+
+.reportMCount {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 130%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.reportMonth {
+    justify-self: start;
+    display: flex;
+    align-items: end;
+}
+
+.reportMMonth {
+    margin-left: 7px;
+    display: inline-block;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+    margin-bottom: 25px;
+}
+
+.reportImgRes {
+    background-image: url('../../public/img/seo-report.WebP');
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.reportResText {
+    justify-self: start;
+    max-width: 580px;
+}
+
+.reportResTitle {
+    margin-bottom: 20px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.reportResDescr {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+@media (max-width:992px) {
+    .reportList {
+        column-gap: 100px;
+        margin-bottom: 65px;
+    }
+    .reportTitle {
+        font-size: 35px;
+        margin-bottom: 70px;
+    }
+    .reportResult {
+        padding: 0 20px;
+        gap: 15px;
+    }
+    .reportResTitle {
+        font-size: 18px;
+    }
+    .reportResDescr {
+        font-size: 14px;
+    }
+    .reportSection {
+        padding: 80px 0 60px;
+    }
+}
+
+@media (max-width:768px) {
+    .reportList {
+        column-gap: 60px;
+        margin-bottom: 65px;
+    }
+    .reportItem {
+        gap: 20px;
+    }
+    .reportDescr {
+        font-size: 14px;
+    }
+    .reportResult {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        padding: 20px 20px 30px;
+    }
+    .reportResText {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width:576px) {
+    .reportSection {
+        padding-bottom: 0;
+    }
+    .reportTitle {
+        font-size: 16px;
+        max-width: 300px;
+        margin-bottom: 40px;
+    }
+    .reportImgRes {
+        background-image: url('../../public/img/seo-report.WebP');
+        width: 90px;
+        height: 90px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .reportMCount {
+        font-size: 70px;
+    }
+    
+    .reportMonth {
+        justify-self: start;
+    }
+    
+    .reportMMonth {
+        margin-left: 7px;
+        display: inline-block;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #25495C;
+    }
+
+    .reportList {
+        grid-template-columns: none;
+        grid-template-rows: repeat(4, auto);
+        justify-content: center;
+    }
+    .reportResult {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+}

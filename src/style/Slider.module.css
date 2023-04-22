@@ -1,0 +1,752 @@
+.slider {
+    margin: 0 auto;
+    /*max-width: 1560px;*/
+    min-height: 700px;
+    background-image: url("../../public/img/hero-bg.WebP");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all .7s ease-in-out;
+
+
+}
+.pagSlider {
+
+}
+.heading {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 120%;
+    width: 639px;
+    min-height: 165px;
+    letter-spacing: -0.02em;
+    color: #25495C;
+    margin-bottom: 52px;
+}
+.text {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    letter-spacing: -0.02em;
+    margin-bottom: 72px;
+    color: #607483;
+}
+.pag {
+    /*position: fixed;*/
+    text-align: left;
+    margin-left: 0 !important;
+    margin-bottom: 100px;
+}
+.btn {
+
+    margin-bottom: 200px;
+    /*margin-bottom: 100px;*/
+
+
+    cursor: pointer;
+    /*margin-bottom: 30px;*/
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F84263;
+    border: 1px solid rgba(248, 66, 99, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 300px;
+    height: 67px;
+    transition: all .4s ease-in-out;
+}
+.btn:hover {
+    color:white;
+    background-color: #F84263;
+}
+
+.photo1 {
+    width: 474px;
+    height: 615px;
+    background-image: url('../../public/img/0.WebP');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.photo2 {
+    width: 448px;
+    height: 344px;
+    background-image: url('../../public/img/1slide.WebP');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.photo3 {
+    width: 607px;
+    height: 340px;
+    background-image: url('../../public/img/2.WebP');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.textWrap {
+    align-self:stretch;
+    align-items: flex-start;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.photoWraper {
+    width: 650px;
+    height: 650px;
+    align-items: stretch;
+
+}
+.photoWrap {
+    display: flex;
+    justify-content: left; /*Центрирование по горизонтали*/
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.modalTitle {
+    font-family: 'GothamProMedium';
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--deep-blue);
+}
+
+.modalDescr {
+    display: inline-block;
+    padding:  0 10px;
+    max-width: 406px;
+    margin-bottom: 32px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #607483;
+    opacity: 0.8;
+}
+
+.modalWarning {
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 406px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+    opacity: 0.7;
+}
+
+.modalBtn {
+    padding: 28px 163px;
+}
+
+.modalInput {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 68px;
+    padding: 26px 35px;
+}
+
+.modalMask {
+    margin-bottom: 32px;
+    width: 100%;
+    padding: 24px 36px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .wrapper {
+        padding-left: 30px;
+        justify-content: space-between;
+    }
+
+    .photoWraper {
+        max-width: 450px;
+    }
+    .heading {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 120%;
+        width: 639px;
+        /*height: 165px;*/
+        letter-spacing: -0.02em;
+        color: #25495C;
+        margin-bottom: 52px;
+    }
+
+    .photo1 {
+        width: 374px;
+        height: 515px;
+        transform: translateX(-50px);
+        background-image: url('../../public/img/0.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .photo2 {
+        width: 358px;
+        height: 254px;
+        transform: translateX(-50px);
+        background-image: url('../../public/img/1slide.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .photo3 {
+        width: 507px;
+        height: 240px;
+        transform: translateX(-70px);
+        background-image: url('../../public/img/2.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .container {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .wrapper {
+        padding-left: 20px;
+    }
+    .slider {
+        min-height: 450px;
+        background-image: url("../../public/img/hero-bg.WebP");
+        height: auto;
+    }
+    .heading {
+        max-width: 450px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 120%;
+        width: 639px;
+        /*height: 165px;*/
+        letter-spacing: -0.02em;
+        color: #25495C;
+        margin-bottom: 32px;
+    }
+
+    .text {
+        max-width: 320px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        margin-bottom: 52px;
+        color: #607483;
+    }
+
+    .photo1 {
+        width: 304px;
+        height: 425px;
+        transform: none;
+        transform: translateX(-80px);
+        background-image: url('../../public/img/0.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+
+    .photo2 {
+        width: 308px;
+        height: 204px;
+        transform: none;
+        transform: translateY(-10px) translateX(-70px);
+        background-image: url('../../public/img/1slide.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+
+    .photo3 {
+        width: 407px;
+        height: 320px;
+        transform: translateX(-100px);
+        background-image: url('../../public/img/2.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+
+    .photoWrap {
+        justify-content: center;
+    }
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+        height: 68px;
+        padding: 26px 35px 19px !important;
+    }
+
+    .modalMask {
+        margin-bottom: 32px;
+        width: 100%;
+        max-width: 400px;
+        padding: 24px 36px;
+    }
+
+    .modalMask::placeholder {
+        font-size: 14px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalPlace {
+        left: 85px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding-left: 20px;
+    }
+    .slider {
+        min-height: 500px;
+        background-image: url("../../public/img/hero-bg.WebP");
+    }
+    .heading {
+        margin: 0 !important;
+        min-height: 190px !important;
+        max-width: 335px;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 120%;
+        /*height: 80px;*/
+        letter-spacing: -0.02em;
+        color: #25495C;
+        margin-bottom: 62px;
+        padding-bottom: 50px;
+    }
+
+    .text {
+        max-width: 296px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        margin-bottom: 52px;
+        color: #607483;
+    }
+
+    .textWrap {
+        align-self:stretch;
+        align-items: flex-start;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .btn {
+        cursor: pointer;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 11px;
+        /* identical to box height */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #F84263;
+        border: 1px solid rgba(248, 66, 99, 0.3);
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 200px;
+        height: 47px;
+        transition: all .4s ease-in-out;
+    }
+
+    .slider {
+        margin: 0 auto;
+        /*max-width: 1560px;*/
+        min-height: 400px;
+        background-image: url("../../public/img/hero-bg.WebP");
+        overflow: hidden;
+    }
+
+    .photoWraper {
+        width: 300px;
+        height: 500px;
+        align-items: stretch;
+
+    }
+
+
+    .photo1 {
+        width: 274px;
+        height: 315px;
+        transform: none;
+        background-image: url('../../public/img/0.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+
+    .photo2 {
+        width: 288px;
+        height: 184px;
+        transform: none;
+        background-image: url('../../public/img/1slide.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+
+    .photo3 {
+        width: 307px;
+        height: 240px;
+        transform: none ;
+        background-image: url('../../public/img/2.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+        height: 68px;
+        padding: 26px 35px 19px !important;
+    }
+
+    .modalMask {
+        margin-bottom: 32px;
+        width: 100%;
+        max-width: 400px;
+        padding: 24px 36px;
+    }
+
+    .modalPlace {
+        left: 85px !important;
+    }
+}
+
+@media (max-width:576px) {
+    .pag {
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .slider {
+        min-height: 500px;
+    }
+    .wrapper {
+        padding: 0;
+        display: grid;
+        grid-template-rows: 2fr 3fr ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+    }
+
+    .textBlock {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .textWrap {
+        /*position: relative;*/
+        top: 0;
+        max-width: 288px;
+        padding: 20px 0 0;
+
+    }
+    .heading {
+        display: inline-block;
+        margin: 0 0 20px 0  !important;
+        height: auto;
+        text-align: left;
+        min-height: 44px !important;
+        width: 100%;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #25495C;
+        margin-bottom: 62px;
+        padding: 0;
+    }
+
+    .text {
+        display: inline-block;
+        max-width: 296px;
+        min-height: 57px;
+        margin: 0  !important;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        letter-spacing: -0.02em;
+        margin-bottom: 52px;
+        color: #607483;
+    }
+
+    .contentCont {
+        width: 100px;
+    }
+    .mySwiper {
+        min-height: 583px;
+    }
+
+    .btn {
+        margin: 0 0 30px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 11px;
+        /* identical to box height */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #F84263;
+        border: 1px solid rgba(248, 66, 99, 0.3);
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 300px;
+        height: 47px;
+        transition: all .4s ease-in-out;
+    }
+
+
+    .imgBlock {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .photoWrap {
+        justify-content: center;
+        align-items: start;
+    }
+    .photoWraper {
+        max-width: 100%;
+        height: 100%;
+
+    }
+
+    .photo1 {
+        display: inline-block;
+        width: 244px;
+        height: 316px;
+        transform: translateX(0px);
+        background-image: url('../../public/img/0.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .photo2 {
+        width: 288px;
+        height: 184px;
+        transform: translateX(0) translateY(40px);
+        background-image: url('../../public/img/1slide.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .photo3 {
+        width: 307px;
+        height: 240px;
+        transform: translateX(-10px) translateY(30px);
+        background-image: url('../../public/img/2.WebP');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .modalPlace {
+        top: 14px;
+    }
+
+    .modalTitle {
+        font-family: 'GothamProMedium';
+        margin-bottom: 7px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+
+    .modalDescr {
+        display: inline-block;
+        padding:  0 10px;
+        max-width: 406px;
+        margin-bottom: 12px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #607483;
+        opacity: 0.8;
+    }
+
+    .modalWarning {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 406px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+        opacity: 0.7;
+    }
+
+    .modalBtn {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 14px 0;
+        font-size: 10px;
+    }
+
+    .modalInput {
+        margin-bottom: 10px;
+        height: 44px;
+        width: 100%;
+        padding: 16px 15px;
+        font-size: 10px;
+    }
+
+    .modalInput::placeholder {
+        font-size: 10px;
+    }
+
+    .modalMask {
+        margin: 0;
+        width: 100%;
+        padding: 14px 14px;
+        font-size: 10px;
+    }
+
+    .modalMask::placeholder {
+        font-size: 10px;
+        color:  #83919B;
+    }
+    .modalInput {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 100%;
+        height: 55px;
+        padding: 26px 25px 15px !important;
+    }
+
+    .modalMask {
+        margin-bottom: 15px;
+        width: 100%;
+        height: 55px;
+        max-width: 400px;
+        font-size: 12px;
+        padding: 24px 25px;
+    }
+
+    .modalMask::placeholder {
+        font-size: 12px;
+        color: var(--rock-grey-color);
+    }
+
+    .modalPlace {
+        top: 21px !important;
+        left: 25px !important;
+    }
+    .modalInputBlockM {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}

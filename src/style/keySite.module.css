@@ -1,0 +1,486 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.KeySite {
+    margin-top: 25px;
+}
+
+.changeItemBtn {
+    font-family: 'GothamProMedium';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--pink-color);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.modalChangeIcon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    opacity: 0;pointer-events: none;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    z-index: 5;
+}
+
+.modalChangeIcon div {
+    width: 50%;
+    height: 40%;
+}
+
+.modalChangeActive {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.drop, .drag {
+    width: 50vw;
+    height: 20vh;
+    margin-bottom: 30px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;
+    font-size: 16px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    border: 3px solid var(--pink-color);
+    border-radius: 3px;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+    color: #989898;
+}
+
+.tariffButton {
+    width: 50vw;
+    height: 10vh;
+}
+
+.drop {
+    border: 3px dashed var(--pink-color);
+}
+
+.photoWrap {
+    position: relative;
+}
+
+.pag {
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: -0.02em;
+    color: #F84263;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.achor {
+    color: #F84263;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.achor:after {
+    margin-left: 6px;
+    margin-right: 6px;
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background: #DADBDD;
+    border-radius: 50%;
+}
+
+.currentAchor {
+    color: #ACB8C0;
+}
+
+.container {
+    margin: 0 auto 200px;
+    max-width: 1000px;
+}
+
+.descr {
+    margin-top: 45px;
+    font-family: 'GothamProBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.achorSite {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #F84263;
+    margin-bottom: 60px;
+}
+
+.about {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aboutCompany {
+    /*width: 467px;*/
+    margin-right: 100px;
+}
+
+.task {
+    /*width:481px;*/
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: 'GothamProBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+
+    color: #4C6171;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+
+.photoWrap {
+    /*max-width: 1200px;*/
+    /*position: relative;*/
+    /*padding-top: 56.25%; !* 16:9 Aspect Ratio *!*/
+}
+
+.photo {
+    margin: 0 auto;
+    margin-top: 74px;
+    height: auto;
+    width: 100%;
+    /* еще больше контроля с max-width */
+    /*max-width: 1200px;*/
+}
+
+.imageInfo {
+    margin-top: 300px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+.hrefSite {
+    color: #F84263;
+}
+
+.publicity {
+    padding: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DBE0E3;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 123px;
+    margin-bottom: 76px;
+    width: 720px;
+    height: 510px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.wrapMiniPhone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.titlePubl {
+    width: 516px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #25495C;
+    margin-bottom: 26px;
+}
+
+.textPubl {
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #607483;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.tel {
+    font-family: 'GothamProBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #F84263;
+}
+
+.btn {
+    margin-top: 44px;
+
+    cursor: pointer;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F84263;
+    border: 1px solid rgba(248, 66, 99, 0.3);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 300px;
+    height: 67px;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: #F84263;
+}
+
+
+.imageInfoFirst {
+    margin-top: 0 !important;
+}
+
+
+@media (max-width: 992px) {
+    .descr {
+        font-size: 35px;
+        max-width: 700px;
+    }
+    .achorSite {
+        margin-top: 30px;
+    }
+    .container {
+        padding: 30px 30px 0;
+    }
+    .pag {
+        margin-bottom:0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-bottom: 150px ;
+    }
+        .hrefSite {
+            font-size: 16px;
+        }
+    .imageInfo {
+        margin-top: 150px;
+    }
+    .publicity {
+        width:500px;
+        min-height: 550px;
+        /*padding-bottom: 150px*/
+    }
+    .titlePubl {
+        width:300px
+    }
+
+    .about {
+        display: block;
+    }
+    .task {
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .container {
+        margin-bottom: 75px ;
+    }
+    .photo {
+        margin-top: 25px;
+    }
+    .imageInfo {
+        margin-top: 75px;
+    }
+    .publicity {
+        width:400px;
+        padding:10px 3px;
+        min-height: 350px !important;
+    }
+    .textPubl {
+        width: auto;
+    }
+    .tel {
+        font-size: 25px;
+    }
+    .titlePubl {
+        font-size: 20px;
+    }
+    .text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #607483;
+    }
+    .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        color: #4C6171;
+    }
+    .hrefSite {
+        font-size: 14px;
+    }
+    .descr {
+        /*font-family: 'Gotham Pro';*/
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+
+        letter-spacing: -0.02em;
+        color: #25495C;
+    }
+    .imageInfo {
+        margin-top: 45px;
+    }
+    .aboutCompany {
+        margin:0;
+    }
+    .publicity {
+        border:none;
+        width:300px;
+        padding:10px 3px;
+        max-height: 430px !important;
+    }
+    .textPubl {
+        width: auto;
+    }
+    .tel {
+        font-size: 25px;
+    }
+    .titlePubl {
+        font-size: 20px;
+    }
+    .achorSite {
+        margin: 20px 0 40px;
+    }
+    .task {
+        margin-top: 60px;
+    }
+   .pag {
+       font-size: 11px;
+   }
+}

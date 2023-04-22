@@ -1,0 +1,140 @@
+.keysSitesBlock {
+    position: relative;
+    transition: all .35s ease-in-out;
+    padding-bottom: 100px;
+}
+.blackGadjets div {
+    width: 403px;
+    height: 301px;
+}
+
+.llumar div {
+    width: 356px;
+    height: 276px;
+}
+
+.adminBlock {
+    position: relative;
+    margin: 20px 0;
+}
+
+.keysSitesLisst {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 90px;
+}
+
+.orangePhone div {
+    width: 210px;
+    height: 335px;
+}
+.basicBlock {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.basicBlock div {
+    width: 360px;
+    height: 275px;
+}
+
+
+.orangePhone, .ecoFemale {
+    display: flex;
+    align-items: end;
+    height: 100%;
+    min-height: 400px;
+}
+
+.ecoFemale div {
+    width: 310px;
+    height: 320px;
+}
+.hockeyImg {
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hockeyImg div {
+    width: 356px;
+    height: 274px;
+}
+
+@media (max-width:768px) {
+    .orangePhone, .ecoFemale {
+        display: flex;
+        align-items: end;
+        height: 100%;
+        min-height: auto;
+    }
+
+    
+    
+   
+    
+}
+
+@media (max-width:576px) {
+    .keysSitesLisst {
+        gap: 56px;
+    }
+
+    .orangePhone div {
+        width: 129px;
+        height: 206px;
+    }
+    .logoOrange {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .ecoFemale div {
+        height: 200px;
+        width: 200px;
+    }
+
+    .hockeyImg div, .llumar div {
+        width: 210px;
+        height: 161px;
+    }
+
+    .basicBlock {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .basicBlock div {
+        width: 210px;
+        height: 160px;
+    }
+    
+
+
+    
+    .logoLlumar {
+        width: 56px;
+        height: 31px;
+    }
+
+    .logoHockey {
+        width: 50px;
+        height: 54px;
+    }
+
+    .blackGadjets div {
+        width: 225px;
+        height: 168px;
+    }
+    .logoGadjets {
+        width: 78px;
+        height: 17px;
+    }
+    .keysSitesBlock {
+        padding-bottom: 55px;
+    }
+}

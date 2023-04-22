@@ -1,0 +1,15 @@
+.crmTitle {
+    margin-bottom: 50px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.crmSection {
+    margin-bottom: 60px;
+}

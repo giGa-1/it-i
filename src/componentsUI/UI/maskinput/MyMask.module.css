@@ -1,0 +1,66 @@
+.maskInput {
+    padding: 24px 18px;
+    border: 1px solid #DADBDD;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color:var(--rock-grey-color);
+    border-radius: 5px;
+    z-index: 3;
+    transition: all .35s ease-in-out;
+}
+
+.labelBlock {
+    width: 100%;
+    position: relative;
+}
+
+.place {
+    position: absolute;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    /* identical to box height, or 14px */
+    letter-spacing: -0.02em;
+    color: #909EA8;
+    top: 11.5px;
+    left: 18px;
+    transition: all .35s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.maskInput:valid:required ~  .place,
+.maskInput:focus ~ .place {
+    opacity: 1;
+}
+
+.maskInput::placeholder {
+    color: #83919B;
+}
+
+.maskInput:active, .maskInput:focus, .maskInput:valid:required {
+    border: 1px solid #9DA0AB;
+    padding: 31px 18px 17px;
+}
+
+@media (max-width:576px) {
+
+    .maskInput {
+        padding-top: 22px;
+    }
+    .place {
+        font-size: 9px;
+    }
+    .maskInput:active, .maskInput:focus, .maskInput:valid:required {
+        border: 1px solid #9DA0AB;
+        padding: 28px 18px 18px !important;
+    }
+}

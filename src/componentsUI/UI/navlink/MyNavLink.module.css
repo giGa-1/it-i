@@ -1,0 +1,19 @@
+.myLink {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: var(--grey-color);
+    transition: all .35s ease-in;
+    cursor: pointer;
+}
+
+.myLink:hover {
+    color: #E50A0B;
+} 
+
+.active {
+    color: #F84263;
+}

@@ -1,0 +1,697 @@
+.keys {
+    padding-top: 145px;
+    overflow:hidden;
+}
+.keysListBlock {
+    position: relative;
+    
+}
+.keysItem {
+    position:relative;
+}
+
+.keysILeft, .keysIRight, .keysIContentF {
+    position: relative;
+}
+
+.changeItem {
+    z-index: 10;
+    position:absolute;
+    bottom: auto;right: 0;left: 0;top:0;
+    margin:auto;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    background-color: #FAFAFA;
+    color: #bdbdbd;
+}
+
+.keysContent {
+    text-align: center;
+}
+
+.imgPadM {
+    display: none;
+}
+
+.keysTitle {
+    margin-bottom: 12px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--deep-blue);
+}
+
+.keysDescr {
+    margin-bottom: 74px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+}
+
+.keysList {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 80px;
+}
+
+
+
+
+.keysIDescr {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+}
+
+.keysIContentS {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.keysBtn {
+    margin-top: 75px;
+    margin-bottom: 105px;
+    padding: 28px 113px;
+}
+
+
+.keysImg {
+    margin-bottom: 36px;
+    height: 640px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.keysImgBlockF {
+    margin-bottom: 36px;
+    padding-top: 125px;
+    background-color: #F8F8F9;
+    border-radius: 10px;
+}
+
+.keysImgF {
+    height: 512px;
+   
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgEva {
+    text-align: center;
+    background-color: #EFF2ED;;
+}
+
+.imgPad {
+    margin: 0 auto;
+    width: 755px;
+    height: auto;
+}
+
+.padBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+    margin-bottom: 38px;
+    width: 100%;
+    background-color: #07315E;
+    border-radius: 10px;
+}
+.ekoM {
+    display: none;
+}
+
+
+.imgMiniPad {
+    object-fit: contain;
+}
+
+.keysILeft, .keysIRight {
+    max-width: 560px;
+    cursor: pointer;
+}
+.keysIContentF {
+    cursor: pointer;
+}
+.img {
+    transition: all .35s ease-in-out;
+}
+
+.img:hover {
+    filter: brightness(0.5) grayscale(0.5);
+}
+.keysImgItemTopBlock {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evaBlock {
+    padding-top: 64px;
+    margin-bottom: 36px;
+    height: 640px;
+
+    display: flex;
+    flex-direction: column;
+    background: #EFF2ED;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evaLogo {
+    width: 185px;
+    height: 40px;
+
+}
+
+.femaleimgSort {
+    width: 360px;
+    height: 370px;
+}
+
+@media (max-width: 1200px) {
+    .keysList {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 80px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .keys {
+        padding-top: 105px;
+        overflow:hidden;
+    }
+
+    .keysTitle {
+        margin-bottom: 10px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .keysDescr {
+        margin-bottom: 44px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+    }
+    
+    .keysList {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 80px;
+        padding: 0;
+    }
+
+    .ekoM {
+        border-radius: 10px;
+    }
+
+    
+
+.keysIDescr {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+}
+
+
+.keysBtn {
+    margin-top: 75px;
+    margin-bottom: 105px;
+    padding: 24px 93px;
+}
+.keysImg {
+    margin-bottom: 36px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.keysImgBlockF {
+    margin-bottom: 36px;
+    padding-top: 125px;
+    background-color: #F8F8F9;
+    border-radius: 10px;
+}
+
+.keysImgF {
+    height: 462px;
+  
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgEva {
+    text-align: center;
+    background-color: #EFF2ED;;
+}
+
+.imgPad {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 755px;
+    object-fit: cover;
+    height: auto;
+}
+
+.padBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 38px;
+    width: 100%;
+    background-color: #07315E;
+    border-radius: 10px;
+}
+
+
+.imgMiniPad {
+    object-fit: contain;
+    width: 300px;
+}
+
+.keysILeft, .keysIRight {
+    max-width: 460px;
+}
+
+.keysImgItemTopBlock {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evaBlock {
+    padding-top: 64px;
+    margin-bottom: 36px;
+    height: 500px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background: #EFF2ED;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evaLogo {
+    width: 185px;
+    height: 40px;
+
+}
+
+.femaleimgSort {
+    width: 310px;
+    height: 320px;
+}
+
+}
+
+@media (max-width:768px) {
+    .keys {
+        padding-top: 80px;
+        overflow:hidden;
+    }
+
+    .keysTitle {
+        margin-bottom: 10px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .keysDescr {
+        margin-bottom: 37px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+    }
+    
+    .keysList {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 50px;
+    }
+
+
+
+.keysIDescr {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+}
+
+
+.keysBtn {
+    margin-top: 75px;
+    margin-bottom: 0;
+    padding: 20px 73px;
+    font-size: 11px;
+}
+
+.keysImg {
+    margin-bottom: 26px;
+    height: 360px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.keysImgBlockF {
+    margin-bottom: 36px;
+    padding-top: 90px;
+    background-color: #F8F8F9;
+    border-radius: 10px;
+}
+
+.keysImgF {
+    height: 462px;
+   
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgEva {
+    text-align: center;
+    background-color: #EFF2ED;;
+}
+
+.imgPad {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 755px;
+    object-fit: cover;
+    height: auto;
+}
+
+.padBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    margin-bottom: 28px;
+    width: 100%;
+    background-color: #07315E;
+    border-radius: 10px;
+}
+
+
+.imgMiniPad {
+    object-fit: contain;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.keysILeft, .keysIRight {
+    max-width: 460px;
+}
+
+.keysImgItemTopBlock {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evaBlock {
+    padding-top: 64px;
+    margin-bottom: 26px;
+    height: 360px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background: #EFF2ED;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evaLogo {
+    width: 135px;
+    height: 40px;
+
+}
+
+.femaleimgSort {
+    width: 230px;
+    height: 240px;
+}
+}
+
+@media (max-width:567px) {
+    .keys {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        overflow:hidden;
+    }
+
+    .keysTitle {
+        margin-bottom: 5px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--deep-blue);
+    }
+    
+    .keysDescr {
+        margin-bottom: 32px;
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--rock-grey-color);
+    }
+    
+    .keysList {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 27px;
+        padding: 0;
+    }
+
+
+
+    .keysImgItemTopE{
+        display: none;
+    }
+
+    .keysImgFamale {
+        display: none;
+    }
+
+    .keysImg {
+       margin: 0 auto 20px;
+        height: 320px;
+        width: 100%;
+        max-width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    .keysImgBlockF {
+        margin: 0 auto 20px;
+        padding: 38px 50px;
+        height: 220px;
+        max-width: 300px;
+        width: 100%;
+        background-color: #F8F8F9;
+        border-radius: 10px;
+    }
+    
+    .keysImgF {
+       
+       
+     
+    }
+    
+    .imgEva {
+        text-align: center;
+        background-color: #EFF2ED;;
+    }
+    
+    .imgPad {
+        display: none;
+        /* margin: 0 auto;
+        padding: 0;
+        max-width: 100%;
+        height: 145px;
+        object-fit: contain; */
+    }
+
+    .imgPadM {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 100%;
+        height: 145px;
+        object-fit: contain;
+    }
+
+    .ekoM {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .padBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 320px;
+        margin: 0 auto 20px;
+        width: 100%;
+        max-width: 300px;
+        background-color: #07315E;
+        border-radius: 10px;
+    }
+    
+    
+    .imgMiniPad {
+        object-fit: contain;
+        width: 100%;
+       height: 174px;
+        padding: 0 32px;
+    }
+    
+    .keysILeft, .keysIRight {
+        max-width: 100%;
+    }
+    
+    .keysImgItemTopBlock {
+        margin: 0 auto;
+        height: 100%;
+        max-width: 438px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .evaBlock {
+        padding: 0;
+        margin:0 auto 20px;
+        height: 320px;
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .evaLogo {
+        width: 135px;
+        height: 40px;
+        display: none;
+    }
+    
+    .femaleimgSort {
+        width: 260px;
+        height: 270px;
+        display: none;
+    }
+
+
+   
+
+.keysIDescr {
+    margin-top: 20px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--rock-grey-color);
+}
+
+
+
+.keysBtn {
+    margin-top: 45px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 0;
+    padding: 20px 73px;
+    font-size: 11px;
+}
+.keysIContentS {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 27px;
+}
+}

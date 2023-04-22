@@ -1,0 +1,385 @@
+.resultSection {
+    padding: 140px 0 122px;
+    
+}
+
+.resultContent {
+    text-align: center;
+}
+
+.drop, .drag {
+    margin-top: 40px;
+    height: 50px;
+    max-width: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;justify-content: center;
+    font-size: 14px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    border: 3px solid var(--pink-color);
+    border-radius: 3px;
+    transition: all;
+    color: #989898;
+}
+
+.drop {
+    border: 3px dashed var(--pink-color);
+}
+
+
+.resultTitleBlock {
+    margin-bottom: 80px;
+    display: inline-block;
+    text-align: center;
+    max-width: 644px;
+}
+
+.resultTitle {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.resultList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.resultItem {
+    position: relative;
+    padding: 0 20px;
+}
+
+.resultImg {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.resultImg img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.calendarImg {
+    width: 67px;
+    height: 66px;
+    background-image: url('../../public/img/calendar.svg');
+}
+.contractImg {
+    width: 72px;
+    height: 71px;
+    background-image: url('../../public/img/contract.svg');
+}
+
+.gearsImg {
+    width: 75px;
+    height: 75px;
+    background-image: url('../../public/img/gears.svg');
+}
+
+.searchImg {
+    width: 67px;
+    height: 67px;
+    background-image: url('../../public/img/search-big.svg');
+}
+
+.resultImgBlock {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 138px;
+    height: 138px;
+    border-radius: 50%;
+    border: 1px solid #E7EAED;
+}
+
+.resultItemTitle {
+    margin: 49px 0 21px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.resultItemDescr {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #607483;
+}
+
+@media (max-width: 992px) {
+    .resultTitleBlock {
+        margin-bottom: 50px;
+        display: inline-block;
+        text-align: center;
+        max-width: 844px;
+    }
+    
+    .resultTitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #25495C;
+        max-width: 600px;
+    }
+
+    .resultItemTitle {
+        margin: 39px 0 16px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        /* or 21px */
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #000000;
+    }
+    
+    .resultItemDescr {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        /* or 22px */
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #607483;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .resultTitleBlock {
+        margin-bottom: 50px;
+        display: inline-block;
+        text-align: center;
+        max-width: 844px;
+    }
+
+    
+    .resultList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    
+    .resultTitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #25495C;
+        max-width: 500px;
+    }
+
+    .resultItemTitle {
+        margin: 25px 0 10px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        /* or 21px */
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #000000;
+    }
+    
+    .resultItemDescr {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        /* or 22px */
+    
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color: #607483;
+    }
+
+    
+.calendarImg {
+    width: 47px;
+    height: 46px;
+    background-image: url('../../public/img/calendar.svg');
+}
+.contractImg {
+    width: 52px;
+    height: 51px;
+    background-image: url('../../public/img/contract.svg');
+}
+
+.gearsImg {
+    width: 55px;
+    height: 55px;
+    background-image: url('../../public/img/gears.svg');
+}
+
+.searchImg {
+    width: 47px;
+    height: 47px;
+    background-image: url('../../public/img/search-big.svg');
+}
+
+.resultImgBlock {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #E7EAED;
+}
+.resultSection {
+    padding: 100px 0 82px;
+    
+}
+}
+
+@media (max-width:567px) {
+    .resultSection {
+        padding: 30px 0 50px;
+        
+    }
+    
+.resultItem {
+    padding: 0 ;
+}
+    
+    .resultTitleBlock {
+        margin-bottom: 30px;
+        display: inline-block;
+        text-align: center;
+        max-width: 844px;
+    }
+    
+    .resultTitle {
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #25495C;
+        max-width: 500px;
+    }
+
+    
+    .resultList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        row-gap: 35px;
+        column-gap: 15px;
+    }
+
+    .resultItemTitle {
+        margin: 25px 0 10px;
+        font-family: 'GothamProMedium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 120%;
+        /* or 16px */
+        
+        text-align: center;
+        letter-spacing: -0.02em;
+        
+        color: #25495C;
+        
+    }
+    
+    .resultItemDescr {
+        font-family: 'GothamProRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        /* or 16px */
+        
+        text-align: center;
+        letter-spacing: -0.02em;
+        
+        color: #607483;
+    }
+
+    
+.calendarImg {
+    width: 47px;
+    height: 46px;
+    background-image: url('../../public/img/calendar.svg');
+}
+.contractImg {
+    width: 52px;
+    height: 51px;
+    background-image: url('../../public/img/contract.svg');
+}
+
+.gearsImg {
+    width: 55px;
+    height: 55px;
+    background-image: url('../../public/img/gears.svg');
+}
+
+.searchImg {
+    width: 47px;
+    height: 47px;
+    background-image: url('../../public/img/search-big.svg');
+}
+
+.resultImgBlock {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #E7EAED;
+}
+}

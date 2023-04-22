@@ -1,0 +1,415 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+.css-67l5gl {
+    padding: 5px !important;
+}
+@font-face {
+    font-display: swap;
+    font-family: "GothamProLight";
+    src: url("../assets/fonts/GothamProLight/GothamProLight.eot");
+    src: url("../assets/fonts/GothamProLight/GothamProLight.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/GothamProLight/GothamProLight.woff") format("woff"),
+    url("../assets/fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "GothamProRegular";
+    src: url("../assets/fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("../assets/fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("../assets/fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+@font-face {
+    font-display: swap;
+    font-family: "GothamProMedium";
+    src: url("../assets/fonts/GothamProMedium/GothamProMedium.eot");
+    src: url("../assets/fonts/GothamProMedium/GothamProMedium.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("../assets/fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "GothamProBold";
+    src: url("../assets/fonts/GothamProBold/GothamProBold.eot");
+    src: url("../assets/fonts/GothamProBold/GothamProBold.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("../assets/fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "GothamProBlack";
+    src: url("../assets/fonts/GothamProBlack/GothamProBlack.eot");
+    src: url("../assets/fonts/GothamProBlack/GothamProBlack.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+    url("../assets/fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+:root {
+    --ff-light: 'GothamProLight';
+    --ff-regular: 'GothamProRegular';
+    --ff-madium: 'GothamProMedium'; 
+    --ff-bold: 'GothamProBold';
+    --ff-black: 'GothamProBlack';
+    --deep-grey-color: #969494;
+    --backgr-sky-grey-color: #F8F8F9;
+    --backgr-light-grey-color: #E9EBED;
+    --grey-color: #4C6171;
+    --ultra-grey-color:#9C9595;
+    --rock-grey-color: #607483;
+    --light-grey-color: #92A4B2;
+    --deep-blue: #25495C;
+    --blue: #4C6171;
+    --sky-grey-color: #ACB8C0;
+    --white-grey: #ECECEC;
+    --pink-color: #F84263;
+    --backgr-grey-color: #576C7D;
+}
+
+.seo-page-t {
+    margin-top: 90px;
+}
+
+.seo-page-o {
+    margin-bottom: 150px;
+}
+
+
+html, body {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+
+
+body { 
+    font-family: var(--ff-regular);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow-x: hidden;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+} 
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    height: 100%;
+}
+
+ 
+button,
+a {
+  display: inline-block;
+ 
+  background-color: transparent;
+  background-clip: padding-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+
+ 
+a::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+}
+ 
+a[href^='http']:empty::before {
+  content: attr(href);
+}
+ 
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline-color: #F84263;
+}
+ 
+input,
+textarea {
+  text-rendering: optimizeLegibility;
+ 
+  line-height: 1;
+ 
+  width: 100%;
+ 
+  background-color: transparent;
+  background-clip: padding-box;
+}
+ 
+::-moz-selection {
+  background-color: #ff91a754;
+}
+ 
+::selection {
+  background-color: #ff91a754;
+}
+
+
+
+button:disabled,
+form:invalid button[type=submit] {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+button {
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+    width: 12px;            
+    z-index: 9000;   
+}
+body::-webkit-scrollbar-track {
+background: rgba(227, 227, 227, 0.208);   
+-webkit-transition: all .35s ease;   
+transition: all .35s ease;    
+z-index: 1000;   
+
+}
+body::-webkit-scrollbar-thumb {
+background-color: var(--sky-grey-color);   
+-webkit-transition: all .35s ease;   
+transition: all .35s ease;
+border-radius: 20px;      
+z-index: 1000;   
+
+}
+
+
+.changeItemBtn {
+    position: absolute;
+    top: 0;left: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #bebebe;
+    background-color: rgb(234, 234, 234);
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 5;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+.desable-scroll {
+    overflow-y: hidden !important;
+}
+.desable-scroll-h {
+    overflow-y: hidden !important;
+}
+
+.html-overflow {
+    overflow-y: scroll;
+}
+
+.desable-scroll::-webkit-scrollbar {
+    background-color: rgb(103, 103, 103);
+}
+
+.main, .about,.gen-pages, .keys, .reviews, .vacancy, .tariff, .key, .contacts, .seo, .mobile, .marketplace {
+    -webkit-transition: all .45s ease-in-out;
+    -o-transition: all .45s ease-in-out;
+    transition: all .45s ease-in-out;
+    opacity: 0;
+    margin-top: 125px;
+}
+
+.mainL, .keysI, .aboutI,.genPage, .reviewsI, .vacancyI , .tariffI, .keyI, .contactsI, .seoI, .mobileI, .marketplaceI {
+    opacity: 1;
+}
+
+.mapboxgl-ctrl-logo::before {
+    display: none;
+}
+
+
+
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: grayscale(1)
+}
+
+
+input[type="range"]::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    height: 5px;
+}
+input[type="range"]::-moz-range-track{
+    -moz-appearance: none;
+    height: 5px;
+}
+input[type="range"]::-ms-track{
+    appearance: none;
+    height: 5px;
+}
+input[type="range"]::-webkit-slider-thumb{
+    font-family: GothamProLight;
+    -webkit-appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 5px solid #607483;
+
+    cursor: pointer;
+    margin-top: -9px;
+    pointer-events: auto;
+    border-radius: 50%;
+}
+input[type="range"]::-moz-range-thumb{
+    /*-webkit-appearance: none;*/
+    /*height: 1.7em;*/
+    /*width: 100%;*/
+    /*cursor: pointer;*/
+    /*border-radius: 50%;*/
+    /*background-color: #607483;*/
+    /*pointer-events: auto;*/
+    font-family: GothamProLight;
+    -webkit-appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 5px solid #607483;
+
+    cursor: pointer;
+    margin-top: -9px;
+    pointer-events: auto;
+    border-radius: 50%;
+}
+input[type="range"]::-ms-thumb{
+    appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #607483;
+    pointer-events: auto;
+}
+input[type="range"]:active::-webkit-slider-thumb{
+    background-color: #607483;
+;
+}
+input[type="range"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    outline: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    pointer-events: none;
+    /*transform: translateX(-28px);*/
+}
+
+
+.changeImgBlock {
+  
+    height: auto;
+    max-width: auto;
+ 
+    text-align: center;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    border: 3px solid var(--pink-color);
+    border-radius: 3px;
+    transition: all;
+    color: #989898;
+}
+
+.changeImgBlockActive {
+    border: 3px dashed var(--pink-color);
+
+} 
+
+
+@media (max-width: 1200px) {
+    /* .container{
+        padding: 0 30px;
+    } */
+}   
+
+@media (max-width: 992px) {
+    .main, .about, .keys,.gen-pages, .reviews, .vacancy, .tariff, .key, .contacts, .seo, .mobile, .marketplace {
+        margin-top: 104px;
+    }
+
+}
+@media (max-width:768px) {
+    .seo-page-o {
+        margin-bottom: 75px;
+    }
+    .main, .about, .keys,.gen-pages, .reviews, .vacancy, .tariff, .key, .contacts, .seo, .mobile, .marketplace {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 576px) {
+  
+    body::-webkit-scrollbar {
+        width: 0px;      
+         /* ширина s  crollbar */
+    }
+    .seo-page-t {
+        margin-top: 45px;
+    }
+    
+    .seo-page-o {
+        margin-bottom: 60px;
+    }
+    .seo-page-o {
+        margin-bottom: 50px;
+    }
+    input[type="range"]::-webkit-slider-thumb{
+        height: 1.5em;
+        width: 1.5em;
+        margin-top: -0.65em ;
+    }
+    
+}

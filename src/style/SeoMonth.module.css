@@ -1,0 +1,161 @@
+.monthSection {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.monthLeft {
+    position: relative;
+}
+.monthItem {
+    position: relative;
+}
+.monthTitle {
+    margin: 0 auto 88px;
+    max-width: 1050px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.monthContent {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    gap: 100px;
+}
+
+.monthLeftList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,auto);
+    row-gap: 51px;
+    column-gap: 20px;
+}
+.monthRight {
+    border-radius: 15px;
+}
+
+.monthRightImg img {
+    width: 100%;
+    min-height: 630px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.monthITitle {
+    margin-bottom: 23px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.monthIDescr {
+    margin-right: 25px;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+@media (max-width:1200px) {
+    .monthITitle {
+        font-size: 17px;
+    }
+    .monthIDescr {
+        font-size: 14px;
+    }
+    .monthContent  {
+        gap: 80px;
+    }
+}
+
+@media (max-width:992px) {
+    .monthITitle {
+        font-size: 16px;
+    }
+    .monthTitle {
+        font-size: 35px;
+    }
+    .monthContent {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    .monthRightImg img  {
+        min-height: 460px;
+    }
+    .monthIDescr {
+        font-size: 14px;
+        margin: 0;
+    }
+    .monthLeftList {
+        column-gap: 15px;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .monthTitle {
+        font-size: 26px;
+        max-width: 550px;
+        margin-bottom: 60px;
+    }
+    .monthContent {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, auto);
+        gap: 50px;
+    }
+    .monthLeftList {
+        max-width: 600px;
+        margin: 0 auto;
+        column-gap: 30px;
+        row-gap: 40px;
+    }
+    .monthRightImg img  {
+        margin: 0 auto;
+    height: 100%;
+    width: auto;
+    min-height: auto;
+    max-height: 650px;
+    }
+}
+
+@media (max-width:576px) {
+    .monthTitle {
+        font-size: 16px;
+        max-width: 320px;
+        margin-bottom: 45px;
+    }
+    .monthITitle {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .monthLeftList  {
+        max-width: 350px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+        row-gap: 35px;
+    }
+    .monthRightImg img  {
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        max-width: 350px;
+        min-height: auto;
+        max-height: 650px;
+    }
+    .monthSection {
+        padding-top:45px;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,17 @@
+
+.myMail {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: -0.02em;
+    color: var(--pink-color);
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.myMail:hover {
+    color:#C72442;
+}

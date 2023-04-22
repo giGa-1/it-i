@@ -1,0 +1,131 @@
+.MuiPaper-root  {
+    /* padding: 17px 17px 17px 41px; */
+    background: #FFFFFF;
+    border: 1px solid #E8EDF1;
+    border-radius: 10px !important;
+    border-top: 1px solid #E8EDF1;
+    border-right: 1px solid #E8EDF1;
+    border-left: 1px solid #E8EDF1;
+    border-bottom: 1px solid #E8EDF1;
+    box-shadow: none !important;
+    outline: none;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root  {
+    min-height: 70px !important;
+    padding: 17px 17px 17px 41px !important;
+}
+.MuiAccordionSummary-content  {
+    margin: 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+    display: none !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+    margin: 12px 0 !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+    padding: 0 0 40px 41px !important;
+    max-width: 800px;
+}
+
+.Mui-expanded .css-ahj2mt-MuiTypography-root{
+    color: #607483;
+} 
+
+
+.accordionSignBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #F84263;
+}
+
+.accordionLineV, .accordionLineH{
+    position: absolute;
+    width: 13px;
+    height: 1px;
+    background-color: #F84263;
+    border-radius: 3px;
+    transition: all .35s ease-in-out;
+}
+.css-9l3uo3 {
+    margin-bottom:4px !important;
+}
+
+.Mui-expanded  .accordionLineH {
+    transform: rotate(180deg);
+}
+
+.css-u7qq7e {
+    max-width:792px !important;
+    padding-left: 41px !important;
+    padding-bottom: 40px !important;
+}
+
+
+.Mui-expanded .accordionLineV {
+    transform: rotate(0deg);
+}
+.accordionLineV {
+    transform: rotate(90deg);
+}
+.css-67l5gl::before  {
+    height: 0px !important;
+}
+
+.css-1iji0d4 {
+   padding: 0 16px 0 41px !important;
+    height: 70px;
+}
+@media (max-width:576px) {
+    .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+        margin: 8px 0 !important;
+    }
+    
+    .accordionLineV, .accordionLineH {
+        width: 8px;
+    }
+    .css-1iji0d4 {
+        padding: 0 11px 0 25px !important;
+        height: 40px;
+    }
+    
+    .css-u7qq7e {
+        max-width:792px !important;
+        padding-left: 25px !important;
+        padding-right: 35px !important;
+        padding-bottom: 20px !important;
+    }
+
+    
+.accordionSignBlock {
+    
+    width: 19px;
+    height: 19px;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root  {
+    min-height: 50px !important;
+    padding: 17px 15px 17px 25px !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+    padding: 0 0 25px 25px !important;
+    max-width: 800px;
+}
+.MuiPaper-root {
+    border-radius: 5px !important;
+    margin: 0 !important;
+}
+}

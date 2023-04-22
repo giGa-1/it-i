@@ -1,0 +1,258 @@
+.vacancySection {
+    margin: 45px 0 180px;
+}
+.accordionList {
+    position: relative;
+}
+.wrapItem {
+    position: relative;
+}
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.vacancyCont {
+    max-width: 1040px;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 95px;
+    
+}
+
+.listAcc {
+    position: relative ;
+   display: grid;
+   grid-template-rows: repeat(5, auto);
+   gap: 12px;
+}
+
+.accordionBlock {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 12px;
+}
+
+.accordion {
+    padding: 17px 17px 17px 41px;
+    background: #FFFFFF;
+    border: 1px solid #E8EDF1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s linear;
+}
+
+.accordionItem {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    align-items: start;
+    justify-content: start;
+}
+
+.accordionBottomBlock {
+    position: relative;
+    transition: 0.35s ease-in-out;
+}
+
+/* .accordionActive .accordionBottomBlock {
+    max-height: 600px;
+} */
+
+@keyframes close {
+    0% {
+        max-height: 1000px;
+    }
+    100% {
+        max-height: 5px;
+    }
+}
+
+/* .accordionActive .accordionTest {
+    animation: open alternate .35s ease-in-out forwards;
+} */
+@keyframes open {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: auto;
+    }
+}
+
+
+
+.accordionHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+.accordionTitle {
+    font-family: 'GothamProMedium' !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 130% !important;
+    letter-spacing: -0.02em !important;
+    display: flex;
+    align-items: center;
+    color: #F84263;
+    transition: all .35s ease-in-out;
+}
+
+.accordionSignBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #F84263;
+}
+
+.accordionLineV, .accordionLineH{
+    position: absolute;
+    width: 13px;
+    height: 1px;
+    background-color: #F84263;
+    border-radius: 3px;
+    transition: all .35s ease-in-out;
+}
+
+.accordionActive .accordionTitle {
+    color: #607483;
+}
+
+.accordionActive  .accordionLineH {
+    transform: rotate(180deg);
+}
+
+
+.accordionActive  .accordionLineV {
+    transform: rotate(0deg);
+}
+.accordionLineV {
+    transform: rotate(90deg);
+}
+
+
+.accordionDescr {
+    /* padding-top: 23px !important;
+    padding-bottom: 25px !important; */
+}
+
+.accordionDescr,  .textItem, .accordionWhatDo {
+    position: relative;
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: -0.02em;
+
+    color: #607483;
+}
+
+.accordionWhatDo {
+    margin-bottom: 25px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.accordionItem {
+    position: relative;
+}
+
+.accordionItem .point {
+    display: inline-block;
+    height: 4px;
+    width: 4px;
+    margin-right: 5px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+    background-color: #607483;
+    border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+    .vacancySection {
+        margin: 40px 0 120px;
+    }
+    .title {
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width:768px) {
+    .accordionTitle {
+        max-width: 450px;
+    }
+    .vacancySection {
+        margin: 30px 0 120px;
+    }
+    .title {
+        margin-bottom: 60px;
+       
+    }
+
+    .accordion {
+        padding-left: 30px;
+    }
+
+    .accordionActive .accordionBottomBlock {
+        max-height: 800px;
+    }
+}
+
+@media (max-width:576px) {
+    
+    .accordionDescr, .textItem, .accordionWhatDo {  
+        padding-right: 25px;
+        font-size: 13px;padding-top: 0;
+    }
+    .accordionWhatDo {
+        padding-right: 15px;
+    }
+    .accordion {
+        padding: 16px 9px 16px 25px;
+        border-radius: 5px;
+    }
+    .accordionActive .accordionBottomBlock {
+        max-height: 1100px;
+    }
+
+    .accordionLineV, .accordionLineH {
+        width: 8px;
+    }
+
+    
+.accordionSignBlock {
+    margin: 0 5px;
+    width: 19px;
+    min-width: 19px;
+    height: 19px;
+}
+.accordionTitle {
+    font-size: 12px !important;
+    /*max-width: 185px;*/
+}
+.title {
+    margin-bottom: 15px;
+}
+
+.vacancySection {
+    margin: 25px 0 50px;
+}
+.listAcc {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    gap: 8px;
+ }
+}

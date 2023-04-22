@@ -1,0 +1,18 @@
+.myBtn {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: var(--pink-color);
+    transition: all .35s ease-in-out;
+    border: 1px solid var(--pink-color);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.myBtn:hover {
+    background: #C72442;
+}

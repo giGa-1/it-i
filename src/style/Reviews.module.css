@@ -1,0 +1,187 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+.reviewsSection {
+    margin-top: 45px;
+    margin-bottom: 43px;
+}
+.reviewsListBlock {
+    position: relative;
+}
+.reviewsTitle {
+    margin-bottom: 95px;
+    max-width: 946px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+.reviewsListBlock {
+    width: 100%;
+}
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.reviewsCont {
+    max-width: 950px;
+}
+
+.reviewsList {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.reviewsItem {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 30px 3fr;
+    grid-template-columns: 2fr 3fr;
+    gap: 30px;
+    border: 1px solid #E9ECEE;
+    border-radius: 10px;
+    width: 100%;
+    padding: 65px 95px 65px 55px;
+}
+
+.reviewsImg {
+    border-radius: 50%;
+    width: 107px;
+    height: 107px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-bottom: 33px;
+}
+
+.reviewsTitleItem {
+    margin-bottom: 20px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */   
+    margin-top:33px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+
+.reviewsDescrItem {
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    letter-spacing: -0.04em;
+    color: #ACB8C0;
+    max-width: 165px;
+}
+
+.reviewsDescr {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: -0.02em;
+
+    color: #607483;
+}
+
+
+@media (max-width:992px) {
+    .reviewsDescr {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .reviewsTitle {
+        margin: 0 auto 60px;
+        max-width: 946px;
+    }
+    .reviewsList {
+        gap: 20px;
+    }
+    .reviewsItem {
+        gap: 15px;
+        padding: 40px 70px 40px 40px;
+    }
+    .reviewsDescr {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .reviewsTitle {
+        margin: 0 auto 20px;
+    }
+    .reviewsItem {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: auto 40px auto;
+        grid-template-rows: repeat(2, auto);
+        gap: 40px;
+        padding: 25px 21px 35px 25px;
+    }
+    .reviewsItem > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .reviewsItem > *:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .reviewsRight {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+    .reviewsImgCard {
+        margin-bottom: 20px;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: auto 30px 9fr;
+        grid-template-columns: auto 9fr;
+        gap: 30px;
+    }
+    .reviewsImgBlock {
+        display: inline-block;
+        max-width: 60px;
+    }
+    .reviewsImg {
+        margin: 0;
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .reviewsTitleItem {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0;
+        max-width: 60px;
+    }
+}

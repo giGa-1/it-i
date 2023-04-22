@@ -1,0 +1,35 @@
+
+.plusElement {
+    position: absolute;
+    top:10px; 
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    z-index: 10;
+}
+
+.plusCard {
+    position: relative;
+    background-color: #F84263;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.plusLine {
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    margin: auto;
+    width: 60%;
+    height: 10%;
+    background-color: #fff;
+    border-radius: 3px;
+    transition:all .4s ease-in-out;
+}
+
+
+
+.plusCard:hover .plusHorizontal {
+    transform: rotate(180deg);
+}

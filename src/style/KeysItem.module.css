@@ -1,0 +1,223 @@
+
+.keysLogo img {
+    width: 75px;
+    height: 65px;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+.keysImgCard {
+    position: relative;
+}
+
+.keysImgCard img {
+    position: relative !important;
+}
+
+.keysImgCard span {
+    display: inline !important;
+    position: relative !important;
+}
+
+
+.stroyLogo {
+    width: 60px;
+    height: 60px;
+}
+
+.autoLogo img {
+    height: 24px;
+    width: 106px;
+}
+
+.llumarLogo img {
+    width: 80px;
+    height: 45px;
+}
+
+.ecoLogo img {
+    width: 62px;
+    height: 62px;
+}
+
+.hockeyLogo  img{
+    width: 76px;
+    height: 82px;
+}
+
+
+.navLink {
+    width: 100% !important;
+}
+.keysImgBlock {
+    height: 400px;
+    display: -ms-grid;
+    display: grid;
+
+
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    justify-items: center;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    min-height: 400px;
+    cursor: pointer;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+
+.keysItem {
+    position: relative;
+}
+
+.changeItemBtn  {
+    z-index: 2;
+    position:absolute;
+    bottom: auto;right: 0;left: 0;top:0;
+    margin:auto;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    background-color: #FAFAFA;
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.keysImgBlock:hover {
+    -webkit-filter:brightness(0.5) grayscale(0.5);
+            filter:brightness(0.5) grayscale(0.5);
+
+}
+.keysDescr {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+@media (max-width:992px) {
+    .keysDescr {
+        font-size: 18px;
+    }
+    .keysImgBlock {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .keysDescr {
+        text-align: center;
+    }
+    .keysImgBlock {
+        padding: 0;
+        margin: 0 auto;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: none;
+        grid-template-columns: none;
+        -ms-grid-rows: 2fr 4fr;
+        grid-template-rows: 2fr 4fr;
+
+        -webkit-box-align: center;
+
+            -ms-flex-align: center;
+
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-line-pack: justify;
+            align-content: space-between;
+
+        margin-bottom: 25px;
+        border-radius: 10px;
+        min-height: 500px;
+        max-width: 500px;
+        cursor: pointer;
+    }
+    .keysImgBlock > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .keysImgBlock > *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+
+}
+
+@media (max-width:576px) {
+    .keysDescr {
+        font-size: 15px;
+    }
+    .keysImgBlock {
+        padding: 0;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: none;
+        grid-template-columns: none;
+        -ms-grid-rows: 4fr 6fr;
+        grid-template-rows: 4fr 6fr;
+
+
+        margin-bottom: 20px;
+        border-radius: 10px;
+        min-height: 340px;
+        max-width: 320px;
+        cursor: pointer;
+    }
+    .keysImgBlock > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .keysImgBlock > *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+
+    .keysLogo img {
+    width: 60px;
+    height: 40px;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+.stroyLogo img {
+    width: 40px;
+    height: 40px;
+}
+
+.autoLogo  img{
+    height: 17px;
+    width: 78px;
+}
+
+.llumarLogo img {
+    width: 80px;
+    height: 45px;
+}
+
+.ecoLogo {
+    width: 56px;
+    height: 31px;
+}
+
+.hockeyLogo img{
+    width: 50px;
+    height: 54px;
+}
+
+}

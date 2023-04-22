@@ -1,0 +1,93 @@
+.mobileBlock {
+    transition: all .35s ease-in-out;
+    padding-bottom: 110px;
+    position: relative;
+}
+.adminBlock {
+    position: relative;
+    margin: 20px 0;
+}
+
+.mobileLogo {
+    width: 60px;
+    height: 53px;
+}
+
+.mobileList {
+    display: grid;
+    grid-template-rows: repeat(1, auto);
+    gap: 80px;
+}
+
+
+
+.mobilaAppImg  {
+    display: flex;
+    align-items: center;
+    height: 100%;
+ }
+ 
+.mobilaAppImg div {
+    margin-top: 10px;
+    width: 322px;
+    height: 371px;
+}
+.basicBlock {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.basicBlock div {
+    width: 360px;
+    height: 275px;
+}
+
+
+
+@media (max-width:768px) {
+    .mobilaAppImg div {
+       margin-bottom: 5px;
+    }
+
+}
+@media (max-width:576px) {
+    .mobileBlock {
+        transition: all .35s ease-in-out;
+        padding-bottom: 55px;
+    }
+
+    .mobilaAppImg  {
+        display: flex;
+        align-items: center;
+        height: 100%;
+     }
+     .basicBlock {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .basicBlock div {
+        width: 210px;
+        height: 160px;
+    }
+    
+     
+    .mobilaAppImg div {
+        width: 170px;
+        height: 210px;
+        margin-bottom:5px;
+    }
+
+
+  
+    .logoBlue {
+        width: 40px;
+        height: 33px;
+    }
+    .mobileLogo {
+        width: 40px;
+        height: 32px;
+    }
+}

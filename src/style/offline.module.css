@@ -1,0 +1,16 @@
+.container {
+    margin-top: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.title {
+    font-weight: 900;
+}
+
+.btn {
+    padding: 17px 24px 17px 23px;
+}

@@ -1,0 +1,49 @@
+
+
+.mapSection {
+}
+.map {
+    height:700px;
+    width:100%;
+    pointer-events: none;
+}
+
+.active .map {
+    pointer-events: all;
+}
+
+@media (max-width:1200px) {
+    
+    .map  {
+        pointer-events: none;
+        height: 600px;
+    }
+    
+.active {
+    pointer-events: all;
+}
+}
+
+@media (max-width:992px) {
+    .map  {
+        pointer-events: none;
+        height: 500px;
+        width: 100%;
+    }
+    
+.active {
+    pointer-events: all;
+}
+}
+
+@media (max-width:576px) {
+    .map  {
+        pointer-events: none;
+        height: 400px;
+        width: 100%;
+    }
+    
+.active {
+    pointer-events: all;
+}
+}

@@ -1,0 +1,43 @@
+.pag {
+    margin-top: 25px;
+}
+
+.pagList {
+    display: flex;
+}
+
+.disablePage {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+    color: #F84263;
+}
+
+.activePage {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+    color: #ACB8C0;
+}
+
+.pagItem , .pagItem a{
+    display: flex;
+    align-items: center;
+}
+
+.pagSec {
+    margin: 2px 6px 0 8px;
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #DADBDD;
+    border-radius: 50%;
+}

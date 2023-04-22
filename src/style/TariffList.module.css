@@ -1,0 +1,51 @@
+.tariff {}
+
+.pagNav {
+    font-family: 'GothamProLight';
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: -0.02em;
+    color: #ACB8C0;
+    margin-bottom: 46px;
+}
+.navMain {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    color: #F84263;
+}
+.navMain:after {
+    margin-left: 6px;
+    margin-right: 6px;
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background: #DADBDD;
+    border-radius: 50%;
+}
+.tariffTitle {
+    position: relative;
+    top: 30px;
+    margin-left: 10%;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #25495C;
+    /*margin-bottom: 67px;*/
+}
+.titlePage{
+    margin-top: 30px;
+}
+
+@media (max-width:576px) {
+    .titlePage{
+        margin-top: 20px;
+    }
+}

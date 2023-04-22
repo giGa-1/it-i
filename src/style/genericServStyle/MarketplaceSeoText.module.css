@@ -1,0 +1,59 @@
+.textSection {
+    padding: 80px 0 65px;
+}
+.textTop, .descr {
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    letter-spacing: -0.02em;
+    color: #607483;
+}
+
+.textCont {
+    max-width: 950px;
+}
+
+.title {
+    margin: 55px 0 65px;
+    font-family: 'GothamProMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #25495C;
+}
+
+@media (max-width:992px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:768px) {
+    .textSection {
+        padding: 65px 0 50px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .textTop, .descr {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:576px) {
+    .textSection {
+        padding: 45px 0 35px;
+    }
+    .title {
+        margin: 35px 0 45px;
+        font-size: 16px;
+    }
+    .textTop, .descr {
+        font-size: 13px;
+    }
+}
